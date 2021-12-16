@@ -1,18 +1,12 @@
 const express=require('express');
-
-require('dotenv').config();
-
 let app=express();
+const path=require('path');
 app.use(express.json());
 
-app.use(express.static("public"))
 
-
-app.set('views','views');
 app.set('view engine','ejs');
 
-
-
+app.use(express.static("public"))
 
 
 app.get("/payment",(req,res) => {
@@ -55,9 +49,8 @@ app.get("/store",(req,res) => {
 app.get("/therapy",(req,res) => {
     res.render("therapyPage");
 })
-
-
-
-app.listen(2346, () => {
-    console.log("listening on port 2346")
+app.get("/products",(req,res) => {
+    res.render("products");
 })
+
+module.exports =app;

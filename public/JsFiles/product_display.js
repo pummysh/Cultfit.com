@@ -7,9 +7,14 @@ function showproduct() {
     product.forEach((product) => {
         // grid-1
         let img_div = document.getElementById("grid1")
-        let img = document.createElement("img")
-        img.src = product.img
-        img_div.append(img)
+        let description=document.getElementById("description");
+        description.innerText=product.description
+        for(let i=0;i<5;i++){
+            let img = document.createElement("img");
+            img.src = product.img[i];
+            img_div.appendChild(img)
+        }
+    
         // grid-1
 
         // add to cart 
@@ -31,11 +36,11 @@ function showproduct() {
         name.textContent = product.name
         let price_div = document.getElementById("price_div")
         let price = document.getElementById("price")
-        price.textContent = product.price
+        price.textContent ="₹ "+ product.price
         let original_p = document.getElementById("mainprice")
-        original_p.textContent = product.mainPrice
+        original_p.textContent = "₹ "+product.mainPrice
         let discount = document.getElementById("discount")
-        discount.textContent = product.discount
+        discount.textContent = product.discount+"% off"
 
 
         // grid-2
@@ -115,14 +120,38 @@ if (localStorage.getItem("mens_store") == null) {
     localStorage.setItem("mens_store", JSON.stringify([]))
 }
 
-function addToCartBox(pr) {
-    let product = JSON.parse(localStorage.getItem("mens_store"))
-    // product= []
-    product.push(pr)
-    localStorage.setItem("mens_store", JSON.stringify(product))
-    console.log(product)
-}
+// function addToCartBox(pr) {
 
+
+
+    async function addToCartBox(pr){
+        console.log("pr:",pr);
+        // let data = {
+        //     // name:{type :String},
+        //     // brand:{type :String,required:false,default:"CULTSPORT"},
+        //     // price:pr.price,
+        //     // mainPrice:{type:Number},
+        //     // discount:{type :String,required:false},
+        //     // size:[{type:String, required:false},],
+        //     // categary:{type:String,required:false},
+        //     // quantity:{tpye:Number},
+        //     // img:[{type:String, required:false}],
+        //     id:pr._id
+        // };
+
+        
+        try {
+            let response = await fetch("http://localhost:2345/mycarts", {
+                method: 'POST',
+                body: JSON.stringify(pr),
+            });
+            let d = await response.json();
+            console.log("d:", d);
+        } catch (err) {
+            console.log("e:", err);
+        }  
+    }
+    
 function checkpincode() {
     let pincode = document.getElementById("pincode").value
     if (pincode.length == 6) {
