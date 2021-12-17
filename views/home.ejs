@@ -14,7 +14,7 @@
 </head>
 
 <body onload="stopLoading()">
-    <div id="loading"></div>
+ 
     <div id="blur">
         <nav class="navbar">
            <a href="http://localhost:2345/home">
@@ -92,12 +92,14 @@
                 </div>
                 <div  onclick="login()" id="login-txt" style="font-size: 14px">Login</div>
                 <div id="cart-icon" onclick="cart()">
+                    <a href="/payment">
                     <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="">
+                </a>
                 </div>
             </div>
         </nav>
 
-
+        <div id="loading"></div>
 
 
         <div id="container" class="container">
