@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/tailwind.css">
     <link rel="stylesheet" href="style/ToastNotification.css">
-    <script src="JsFiles/product_display.js" async></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script rel="preload" src="JsFiles/product_display.js" async></script>
+    <script rel="preload" src="JsFiles/ToastNotification.js" async></script>
+    <script rel="preload" src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script rel="preload" src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png"
     data-rh="true">
 <title>cult.fit - health food | fitness | meditaion</title>
@@ -35,7 +36,7 @@
                 
             </div>
             <div class="text-center mt-2 text-base pinkC">Cultsport</div>
-            <div class="flex gap-2 mr-4">
+            <div class="flex gap-6 mr-4">
                 
                     <div class="mt-2">
                         <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
@@ -284,55 +285,4 @@
        </div>
          </footer>
 </body>
-
-<script>
-
-    const DelAvailable = "Delivery to this Location is Possible.";
-    const DelNotAva =  "Invalid Pincode ! Delivery to this Location is Not Possible.";
-
-    $('button').click(showAlert_Msg(DelAvailable,"green"));
-
-    function showAlert_Msg(message,color){
-
-        if(color==="red"){
-            $('#mark').removeClass("fas fa-check");
-            $('#mark').addClass("fas fa-exclamation-circle");
-            $('.alert').removeClass("green greenborder");
-            $('.alert').addClass("red redborder");
-        }
-
-        let msgg = document.getElementById("msg");
-        // msgg.setAttribute = red;
-        msgg.textContent = message;
-
-        (function(){
-        $('.alert').removeClass("hide");
-        $('.alert').addClass("show");
-        $('.alert').addClass("showAlert");
-        setTimeout(function(){
-        $('.alert').addClass("hide");
-        $('.alert').removeClass("show");
-
-        },3000) // hide automatic after 4 sec
-    });
-    $('.close-btn').click(function(){
-        $('.alert').addClass("hide");
-        $('.alert').removeClass("show");
-    });
-    }
-    $('button').click(function(){
-        $('.alert').removeClass("hide");
-        $('.alert').addClass("show");
-        $('.alert').addClass("showAlert");
-        setTimeout(function(){
-        $('.alert').addClass("hide");
-        $('.alert').removeClass("show");
-
-        },3000) // hide automatic after 4 sec
-    });
-    $('.close-btn').click(function(){
-        $('.alert').addClass("hide");
-        $('.alert').removeClass("show");
-    });
-</script>
 </html>

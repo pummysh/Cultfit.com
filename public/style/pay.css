@@ -41,39 +41,13 @@ a{
     padding: 0 0 0 .3%;
 }
 
-
-
-#orderDiv a{
-    color: rgb(252, 46, 113);
-    box-sizing: border-box;
-    padding: 5.6% 0 0 81% ;
-    text-decoration: none ;
-    align-self: center;
-    
-}
-#mealDiv a{
-    color: #404040; 
-    box-sizing: border-box;
-    padding: 5.6% 0 0 31.5% ;
-    text-decoration: none ;
-}
-
-.head{
-    margin: 0;
-}
-.images{
-    width: 1.5rem;
-    height: 1.5rem;
-}
 .login{
     display: flex;
     width: 14%;
-    /* justify-content: space-between; */
-    
     padding: 10px;
-    /* margin: 0 0 0 20%; */
     margin-left: auto;
-
+    align-items: center;
+    justify-content: flex-end;
 }
 .location{
     display: grid;
@@ -195,6 +169,7 @@ img{
     color: #FF0D9C;
     font-size: 18px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 #div4 div:nth-child(2){
@@ -203,16 +178,76 @@ img{
 }
 
 #right{
+    width: 50%;
     display: flex;
+    outline:1px solid red;
     flex-direction: column;
+    gap:1.5rem;
+    margin: 3rem 1rem;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
 }
-input{
+#right >div{
+    display: flex;
+}
+.Total_payable span{
+    font-weight: 700;
+}
+#coupan_code{
     border: none;
     outline: none;
-    border-bottom:1 px solid black ;
-    width: 100%;
+    border-radius: 5px;
+    font-size:15px ;
+    line-height: 15px;
+    border-bottom:1px solid black ;
+}
+#coupan_code:hover{
+    outline: 2px solid black;
 }
 
+.margin_left{
+    margin-left: auto;
+}
+.price{
+    color:rgb(135,145,151) ;
+}
 
+#Coupon-btn{
+    padding: .7rem 1.5rem;
+   background-color: #FF0D9C;
+   color: white;
+   border: none;
+   border-radius: 1rem;
+   font-weight: 600;
+   font-size: 18px;
+   cursor: pointer;
+   background: rgb(168,9,171);
+   background: linear-gradient(90deg, rgba(168,9,171,1) 7%, rgba(158,7,107,1) 88%);
+}
 
+#CheckOut-btn{
+    padding: .7rem 1rem;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+    width: 15rem;
+    border: none;
+   margin: auto;
+    color: white;
+    font-weight: 600;
+    background: rgb(168,9,171);
+    background: linear-gradient(90deg, rgba(168,9,171,1) 7%, rgba(158,7,107,1) 88%);
+}
 
+#CheckOut-btn:hover,#Coupon-btn:hover{
+    outline:3px solid rgb(168,9,171)
+}
+
+#error{
+    color: red;
+    font-weight: 600;
+    z-index:100;
+    position: relative;
+    top:-1em;
+    left: 1em;
+}
