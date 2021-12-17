@@ -39,3 +39,44 @@
 #a{
     width: 10%;
 }
+
+#container{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+#left{
+    width:60%
+}
+#items{
+    overflow: scroll;
+    height:450px
+}
+#div3{
+    display: flex;
+    width:100%;
+    gap: 1%;
+}
+
+img{
+    width: 100%;
+}
+#div2{
+    width: 40%;
+}
+#div1{
+    width:60%;
+    font-size: 1vw;
+}
+
+#right{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    outline: none;
+    border-bottom:1 px solid black ;
+    width: 100%;
+}

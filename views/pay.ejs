@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style/pay.css">
     <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png" data-rh="true">
     <title>cult.fit - Payment</title>
-    <script src="JsFiles/pay.js" async></script>
+    <script  rel="preload" src="JsFiles/pay.js" async></script>
 </head>
 <body>
     <nav class="navbar">
@@ -20,8 +20,17 @@
             <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
         </div>
     </nav>
-
-    <div id="items"></div>
+    <div id="container">
+       <div id="left">
+        <div id="top">Cultgear Order Summary</div>
+        <div id="items"></div>
+       </div>
+       <div id="right">
+            <input type="text">
+            <button>CheckOut</button>
+       </div>
+    </div>
+    
    
     
 </body>
