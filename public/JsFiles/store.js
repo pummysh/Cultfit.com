@@ -5,6 +5,8 @@ let image = [
 function startslideshow(){
     let counter = 0;
     let img = document.createElement("img");
+    img.style.width="100vw";
+    // img.setAttribute=("class","w-screen")
     img.src =image[0]
     slideshow1.append(img)
     counter++
@@ -23,11 +25,11 @@ function startslideshow(){
 startslideshow()
 
 function mens_store(){
-    window.location.href = "../html/mens-store.html"
+    window.location.href = "/mens-store"
 }
 
 function mensPage(){
-    window.location.href = "../html/mens-store.html"
+    window.location.href = "./mens-store"
 }
 
 let a = JSON.parse(localStorage.getItem("currentcity"));
@@ -38,7 +40,7 @@ location_div.textContent=a[0];
 
 
 function backtohome(){
-    window.location.href = "../html/home.html"
+    window.location.href = "/home"
 }
 
 // arrow=>
