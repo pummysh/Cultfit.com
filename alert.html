@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="alertstyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <button>Show Alert</button>
+    <div class="alert hide green greenborder">
+        <!-- <span class="fas fa-exclamation-circle"></span> -->
+        <span id="mark" class="fas fa-check"></span>
+        <span id="msg" class="msg "></span>
+        <span class="close-btn">
+            <span class="fas fa-times "></span>
+        </span>
+    </div>
+    <script>
+
+        const DelAvailable = "Delivery to this Location is Possible.";
+        const DelNotAva =  "Invalid Pincode ! Delivery to this Location is Not Possible.";
+
+        $('button').click(showAlert_Msg(DelAvailable,"green"));
+
+        function showAlert_Msg(message,color){
+
+            if(color==="red"){
+                $('#mark').removeClass("fas fa-check");
+                $('#mark').addClass("fas fa-exclamation-circle");
+                $('.alert').removeClass("green greenborder");
+                $('.alert').addClass("red redborder");
+            }
+
+            let msgg = document.getElementById("msg");
+            // msgg.setAttribute = red;
+            msgg.textContent = message;
+
+            (function(){
+            $('.alert').removeClass("hide");
+            $('.alert').addClass("show");
+            $('.alert').addClass("showAlert");
+            setTimeout(function(){
+            $('.alert').addClass("hide");
+            $('.alert').removeClass("show");
+
+            },3000) // hide automatic after 4 sec
+        });
+        $('.close-btn').click(function(){
+            $('.alert').addClass("hide");
+            $('.alert').removeClass("show");
+        });
+        }
+        $('button').click(function(){
+            $('.alert').removeClass("hide");
+            $('.alert').addClass("show");
+            $('.alert').addClass("showAlert");
+            setTimeout(function(){
+            $('.alert').addClass("hide");
+            $('.alert').removeClass("show");
+
+            },3000) // hide automatic after 4 sec
+        });
+        $('.close-btn').click(function(){
+            $('.alert').addClass("hide");
+            $('.alert').removeClass("show");
+        });
+    </script>
+</body>
+</html>

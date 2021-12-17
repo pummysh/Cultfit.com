@@ -1,0 +1,261 @@
+[
+    {
+            "id":"1",
+            "name": "AbsoluteFit Women's Workout Leggings",
+            "brand": "CULTSPORT",
+            "price":  959,
+            "mainPrice": 1599,
+            "discount": 40,
+            "size":["M","L"],
+            "category":"women",
+            "description":"Ladies, tired of leggings that can't keep up with your pace? These AbsoluteFit Women's No-Slip HIIT Leggings might just be what you need. Made with thick fabric that fits snug, it promises no-waist slippage while you go for that deadlift or squat. It's designed with anti-chafing seams so you can power through without worrying about unnecessary bruises.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/CX3hqPZY3U1otWMVveWedS6Z",
+                     "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/XTDF4VDZa29eKKp6uZiA1YVy",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ebi6N4NJiNGFFbTvUKWAM3mL",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/QN2TSY8Yn9VQsyBnGQexGGVP",
+                   "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/xo8qUeR24fCVPEHhTSdGRYfP"]
+            
+    },
+    {
+            "id":"2",
+            "name": "Side Mesh Panel Leggings",
+            "brand": "CULTSPORT",
+            "price": 1209,
+            "mainPrice": 2199,
+            "discount": 45,
+            "size":["M","L", "XL","XXL"],
+            "category":"women",
+            "description":"We name it AbsoluteFit and stay true to it. Slay in the AbsoluteFit Leggings with side mesh panel for extra breathability, odour resistance and Fly Dry technology to wick away sweat as keep up to your workout game.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/E9cNXGdz2dNzEpKr4Kqiyqqe",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/56v8mENBYdChoSjds31FMmGQ",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/cNqCZ3Joc51L5s3mfofJH1Bf",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/VhzTRmBkqwiDjFcsuTkXy77J",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/R9XkZTPxevw7rk6ZAEfHvFLQ"]
+            
+    },
+    {
+            "id":"3",
+            "name": "Cleo Slip-on Sports Bra",
+            "brand": "CULTSPORT",
+            "price": 959,
+            "mainPrice":  1599,
+            "discount": 40,
+            "size":["XS","M","L", "XL","XXL"],
+            "category":"women",
+            "description":"Mix some fashion with your passion! Enjoy superior support and bounce control with this high impact sports bra. Its double-layered design adds style while the mesh panel offers high coverage during your workouts. Time to look smarter, train harder!",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/xfyTUvSwRaKGThjzqH54yNHB",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7JkEX9E9cxuY57wVEc9mx4ww",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/CbNPncE38Womxd7H94iAUtFp",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6PC4S8EKENPWNJ1o2JGHY5CU",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/WNbvx2QiD9T4VDzE8R7tCy6Q"]
+            
+    },
+    {
+            "id":"4",
+            "name": "Contrast Side Panel Leggings",
+            "brand": "CULTSPORT",
+            "price":  1259,
+            "mainPrice":  2099,
+            "discount": 40,
+            "size":["XS","M","L"],
+            "category":"women",
+            "description":"We name it AbsoluteFit and stay true to it. Slay in the AbsoluteFit Leggings with side colourblock panels , odour resistance and Fly Dry technology to wick away sweat as keep up to your workout game.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/5BxtouTjzGtZquhA4Cv6i8wv",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/p4TFkYVtw9G3GkL92tNEk5j7",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/nRCe14YSs4qfapuNhXJMH9ED",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/m1q8LiGB86SafBv98NtVKphU",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/agApHbw8PtnG8kzkKT826bX8"]
+            
+    },
+    {
+            "id":"5",
+            "name": "Mesh Panel Solid Leggings",
+            "brand": "CULTSPORT",
+            "price":  1319,
+            "mainPrice":  2199,
+            "discount": 40,
+            "size":["L","XL"],
+            "category":"women",
+            "description":"Reinvent your workoutfit with AbsoluteFit. Add an edgy look to your workout wardrobe with the AbsoluteFit Solid Leggings with breathable mesh panel at back knee, odour resistance and Fly Dry technology to wick away sweat as keep up to your workout game.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/4uegpqrNAqNC8szEYiozXb49",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/H79gbAHL9aCU2a5iE5WPAkxg",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/cNr8KiFgLWwhAFgwpi7TJa2i",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/kwmj5hXTevddUQJ9TmE7pVkm",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/jiWtPjrciLM18m9m9a6Uh2Am"]
+            
+    },
+    {
+            "id":"6",
+            "name": "Contrast Side Panel Leggings",
+            "brand": "CULTSPORT",
+            "price":  1259,
+            "mainPrice":  2099,
+            "discount": 40,
+            "size":["S","L","XL"],
+            "category":"women",
+            "description":"We name it AbsoluteFit and stay true to it. Slay in the AbsoluteFit Leggings with side colourblock panels , odour resistance and Fly Dry technology to wick away sweat as keep up to your workout game.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7YgbyzDJbqqqCQWEe2MNE4mc",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/RQmUhgcahAnev2dVCx5Lfhz6",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/oLcnUjpzoaMT9PwDt6YaMMtE",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/us86PEnXmHAPPzF1sH8g3o2G",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/CShUN636VjcMF9yZStUkQpj8"]
+            
+    },
+    {
+            "id":"7",
+            "name": "Stripe Detail Leggings",
+            "brand": "CULTSPORT",
+            "price":  1319,
+            "mainPrice":  2199,
+            "discount": 40,
+            "size":["XL"],
+            "category":"women",
+            "description":"Reinvent your workoutfit with AbsoluteFit. Add an edgy look to your workout wardrobe with the AbsoluteFit Solid Leggings with striped details on front, odour resistance and Fly Dry technology to wick away sweat as keep up to your workout game.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/rx5Mtu8KuJmrogAUtQs26qHw",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/gwjS4NZTZqpZygCLqFnrtS9c",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/BMfySAsdzo7QgHaSbxjGMDcU",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/XAzuuvvmhbmgiiB9kwPQbSpW",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/4EcuaQ6zJzcwpXHmkhDEHJws"]
+            
+    },
+    {
+            "id":"8",
+            "name": "Mesh Panel Solid Leggings",
+            "brand": "CULTSPORT",
+            "price": 1319,
+            "mainPrice":  2199,
+            "discount": 40,
+            "size":["L","XL","XXL"],
+            "category":"women",
+            "description":"Reinvent your workoutfit with AbsoluteFit. Add an edgy look to your workout wardrobe with the AbsoluteFit Solid Leggings with breathable mesh panel at back knee, odour resistance and Fly Dry technology to wick away sweat as keep up to your workout game.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/2MLEBsc1JETdsm6KQNEjbJ45",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/MtfLpiAxUANT5xXbgKBJC7jS",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/qiQy8aBMVQnEhutmbdZJGv63",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/oAU8M2uGw5MCA7qWGycLr66y",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/mM9fh9EnjLbKxvotVRxn2rEQ"]
+            
+    },
+    {
+            "id":"9",
+            "name": "Graphic Print Shorts",
+            "brand": "CULTSPORT",
+            "price": 719,
+            "mainPrice":  1199,
+            "discount": 40,
+            "size":["S","M","L","XL"],
+            "category":"women",
+            "description":"Functionality meets Fashion with this trendy shorts. Supersoft and breathable fabric to add your comfort and ease while you workout.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/rDkoGugugGJMFqqiJoLKLm8P",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/SiRUmVYhy6qMrH5uWpp5dTqZ",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/LjpTs9zuDoSJhFZwX4BQKfZn",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/nWyvvwUprxcGuu23jgMo6seG",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/aFdpbgsWpaeaf6KkeS5GSbJW"]
+            
+    },
+    {
+            "id":"10",
+            "name": "Graphic Print Shorts",
+            "brand": "CULTSPORT",
+            "price":  659,
+            "mainPrice":  1199,
+            "discount": 45,
+            "size":["S","M","L","XL","XXL"],
+            "category":"women",
+            "description":"Functionality meets Fashion with this trendy shorts. Supersoft and breathable fabric to add your comfort and ease while you workout.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/XWGRc3c2vydVPDjcBoJ5dmMo",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ra5rzu2iihcgGTPDEq8Bcf9R",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/8CwsaeUeFjCP4LcEA45coNwZ",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/dvtwNBbJ9oTeQx46c8rpMid6",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/pVNcBsgrw1wfGLBxxACyB5W1"]
+            
+    },
+    {
+            "id":"11",
+            "name": "Supersoft Leisure Shorts",
+            "brand": "CULTSPORT",
+            "price":  659,
+            "mainPrice":  1199,
+            "discount": 45,
+            "size":["S","M","L","XL"],
+            "category":"women",
+            "description":"Functionality meets Fashion with this trendy shorts. Supersoft and breathable fabric to add your comfort and ease while you workout.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/R1ed1mgVUd1pwpjycSJsrJVa",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/xPcPBRhwNnDn2fTGESzzx5mD",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/qtoxjzu9PCrpiimkCJVrPsTN",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7fNyczDdxGorf84cGy4eo264",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6i4c7MGhdR5A2Hkq5JtWybDs"]
+            
+    },
+    {
+            "id":"12",
+            "name": "Workout Shorts with Inner Tights",
+            "brand": "CULTSPORT",
+            "price":  759,
+            "mainPrice":  1399,
+            "discount": 45,
+            "size":["S","M","L","XL","XXL"],
+            "category":"women",
+            "description":"Working out made easier with these double layer shorts that includes inner tights which in preventing thigh chaffing due to sweat and friction. So get those high knees going!",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Jzza5mVyraNUopUB2Tm7ANZV",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/S7bZ3H3ySQriHpTLCZZkTS1g",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/cxHPbWUKSauuVGzbXfgoErUM",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/u9wX5CaiVdqimmkkkHvJZLbc",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/whRU1YC6KHhwPE8vcfbDuN8D"]
+            
+    },
+    {
+            "id":"13",
+            "name": "Workout Shorts with Inner Tights",
+            "brand": "CULTSPORT",
+            "price":  759,
+            "mainPrice":  1399,
+            "discount": 45,
+            "size":["S","M","L","XL","XXL"],
+            "category":"women",
+            "description":"Working out made easier with these double layer shorts that includes inner tights which in preventing thigh chaffing due to sweat and friction. So get those high knees going!",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/xyRhCi4RkibpcP1QhZSiEc1S",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/9P8biY1EJK4foRJHXKTN9BW8",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/SYDZQDCWNcE7J4uRS6uaDNWR",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/4wp5rxwCENaCraAjDtL6fU6X",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/W4o9Vz68RuwLwdB67WYV4Rcb"]
+            
+    },
+    {
+            "id":"14",
+            "name": "Prism Print Sports Bra",
+            "brand": "CULTSPORT",
+            "price":  1044,
+            "mainPrice": 1899,
+            "discount": 45,
+            "size":["S","M","L","XL"],
+            "category":"women",
+            "description":"Working out made easier with these double layer shorts that includes inner tights which in preventing thigh chaffing due to sweat and friction. So get those high knees going!",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/B2h9k2JTaQvDmCkCm6NNPfHV",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/seXPXCWpaVEZRKLPgbksUGYG",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/L9XDDFuhkJqN7P4aJVU8QNea",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Lej5zQgBz4wC2VTwjEn9e2fE",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/LvEZ1apiPkznT78nsJLgE2XG"]
+            
+    },
+    {
+            "id":"15",
+            "name": "Halftone Print Sports Bra",
+            "brand": "CULTSPORT",
+            "price": "₹ 1264",
+            "mainPrice": "₹ 2299",
+            "discount": "45% off",
+            "size":["S","M","L","XL"],
+            "category":"women",
+            "description":"Looking for support, coverage, and comfort? Find it all in our easy slip on Move.Fit Movement bra that comes in a cropped length with dotted stripe print and an irridecent branded energy line.",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/BSiu1tUZrfLeCitwG36pwce6",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/nBppziqXEk9ynHFj7gxjFFUt",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/NvtpYn2voYxkXaW8fv2aXRud",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/hvX9o9ziSoVGKpphjj1ghc87",
+                    "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/FiejaDuGDwRcnNxrX9L3D4fW"]
+            
+    }
+    
+    
+    
+    
+    ]
