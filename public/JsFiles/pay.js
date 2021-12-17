@@ -4,6 +4,7 @@ async function getCartItems() {
           let res = await fetch('http://localhost:2345/mycarts');
           let data = await res.json();
           console.log(data);
+          if(data.length === 0) {window.location.reload();}
           showProduct(data)
   
       } catch (e) {
@@ -108,7 +109,7 @@ async function quantI(pr){
 //     }
 //     try {
 //         let response = await fetch("http://localhost:2345/mycarts", {
-//             method: 'POST',
+//             method: 'PATCH',
 //             body: JSON.stringify(data),
 //             headers: {'Content-Type': 'application/json'}
 //         });
@@ -123,20 +124,28 @@ async function quantI(pr){
 
 
 
-// async function quantD(pr){
-//     let id=pr._id;
-//     console.log(id);
+async function quantD(pr){
+    let id=pr._id;
+    let a=pr.quantity-1;
+
     
-//     try {
-//         let response = await fetch(`http://localhost:2345/mycarts/${id}`, {
-//             method: 'PUT',
-//             body: JSON.stringify(id),
-//             headers: {'Content-Type': 'application/json'}
-//         });
-//         let d = await response.json();
-//         console.log("d:", d);
-//         getCartItems()
-//     } catch (err) {
-//         console.log("e:", err);
-//     }  
-// }
+
+    let data={
+        quantity:a
+    }
+    
+    console.log(id);
+    
+    try {
+        let response = await fetch(`http://localhost:2345/mycarts/${id}`, {
+            method: 'PATCH',
+            body: JSON.stringify(data),
+            headers: {'Content-Type': 'application/json'}
+        });
+        let d = await response.json();
+        console.log("d:", d);
+        getCartItems()
+    } catch (err) {
+        console.log("e:", err);
+    }  
+}
