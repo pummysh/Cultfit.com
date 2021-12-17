@@ -11,7 +11,8 @@
     
     <title>cult.fit - health food | fitness | meditaion</title>
 </head>
-<body class="overflow-x-hidden ">
+<body class="overflow-x-hidden " onload="stopLoading()">
+    <div id="loading"></div>
     <nav class="fixed w-full bg-white top-0">
         <div class="flex justify-between  shadow-md py-2">
             <div class="flex gap-2 ml-4">
@@ -39,7 +40,9 @@
                     <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
                 </div>
                 <div class="mt-2">
+                    <a href="/payment">
                     <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="">
+                </a>
                 </div>
             </div>
         </div>
@@ -618,5 +621,14 @@
            </footer>
         <!-- footer -->
     </div>
+
+
+
+    <script>
+        let preloader=document.getElementById("loading")
+    function stopLoading(){
+        preloader.style.display="none";
+    }
+    </script>
 </body>
 </html>

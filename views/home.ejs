@@ -13,7 +13,8 @@
     <script  rel="preload" src="JsFiles/home.js" async></script>
 </head>
 
-<body>
+<body onload="stopLoading()">
+    <div id="loading"></div>
     <div id="blur">
         <nav class="navbar">
            <a href="http://localhost:2345/home">
@@ -612,6 +613,12 @@
     </div>
 
 
+    <script>
+        let preloader=document.getElementById("loading")
+    function stopLoading(){
+        preloader.style.display="none";
+    }
+    </script>
 </body>
 
 </html>

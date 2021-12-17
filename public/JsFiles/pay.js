@@ -1,3 +1,5 @@
+window.addEventListener("load",()=>{
+
 async function getCartItems() {
 
     try {
@@ -187,3 +189,6 @@ function Coupon() {
     }
     document.getElementById("coupan_code").value="";
 }
+
+
+});

@@ -1,3 +1,7 @@
+
+window.addEventListener("load",()=>{
+
+
 const DelAvailable = "Delivery to this Location is Possible.";
     const DelNotAva =  "Invalid Pincode ! Delivery to this Location is Not Possible.";
 
@@ -45,3 +49,8 @@ const DelAvailable = "Delivery to this Location is Possible.";
         $('.alert').addClass("hide");
         $('.alert').removeClass("show");
     });
+
+
+}); //important
+
+    

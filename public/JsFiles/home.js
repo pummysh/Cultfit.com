@@ -1,3 +1,7 @@
+
+window.addEventListener("load",()=>{
+
+
 let body = document.body;
 let str = "";
 let blur = document.getElementById("blur");
@@ -378,3 +382,10 @@ function cart_null() {
 // let set_int=setInterval(v,1000);
 
 
+
+
+
+
+
+
+});   //important

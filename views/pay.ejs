@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./style/ArrowDropDown.css">
     <script  rel="preload" src="JsFiles/pay.js" async></script>
 </head>
-<body>        
-   
+<body  onload="stopLoading()">        
+   <div id="loading"></div>
 <!-- navebar -->
     <nav class="navbar">
         <div class="logo">
@@ -146,6 +146,12 @@
     
 </body>
 <script>
+    let preloader=document.getElementById("loading")
+    function stopLoading(){
+        preloader.style.display="none";
+    }
+
+
     updateLocation()
 function updateLocation(){
     let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
