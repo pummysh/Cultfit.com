@@ -28,7 +28,7 @@ function showProduct(data) {
         let img = document.createElement("img");
         let name = document.createElement("p");
         let price = document.createElement("p");
-        let quantity = document.createElement("p");
+        let quantity = document.createElement("div");
         let div4=document.createElement("div");
         let plus= document.createElement("div");
         let minus= document.createElement("div");
@@ -42,8 +42,8 @@ function showProduct(data) {
 
         brand.textContent="Brand"+": "+a.brand;
         name.textContent="Name: "+a.name;
-        price.textContent="Price: "+a.price;
-        quantity.textContent="Quantity: "+a.quantity;
+        price.textContent="Price: "+ "₹"+a.price;
+        quantity.textContent=a.quantity;
         img.src=a.img[0];
         plus.textContent="+";
         minus.textContent="-";
@@ -57,10 +57,10 @@ function showProduct(data) {
             quantD(a);
         }
 
-        div4.append(plus,minus);
+        div4.append(plus,quantity,minus);
 
         div2.append(img);
-        div1.append(brand,name,price,quantity,div4);
+        div1.append(brand,name,price,div4);
         div3.append(div2, div1);
         div.append(div3);
     })

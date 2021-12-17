@@ -8,22 +8,14 @@
     <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png" data-rh="true">
     <title>cult.fit - Payment</title>
     <script rel="preload" src="JsFiles/product_display.js" async></script>
-    <link rel="stylesheet" href="style/tailwind.css">
+   
     <link rel="stylesheet" href="./style/ArrowDropDown.css">
     <script  rel="preload" src="JsFiles/pay.js" async></script>
 </head>
 <body>
-    <!-- <nav class="navbar">
-        <div class="images">
-            <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="">
-            <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/store_fit.svg" alt="">
-        </div>
-       <div class="mid-box">cultsport</div>
-        <div class="login-icon"> 
-            <img src="https://static.cure.fit/assets/images/user-image.svg" alt="">
-        </div>
-    </nav> -->
-
+  
+   
+<!-- navebar -->
     <nav class="navbar">
         <div class="logo">
         <a href="/home">
@@ -38,15 +30,7 @@
             <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
         </div>
 
-        <!-- <div class="eat_section">
-            <div id="orderDiv">
-               <a href="/eat"> Order</a>
-            </div>
-            <div id="mealDiv">
-                <a href="/eat_meal">Meal plans</a>
-            </div>
-
-        </div> -->
+       
 
 
         <!-- login Section -->
@@ -65,7 +49,9 @@
             </div>
         </div>
     </nav>
-   
+   <!-- navebar -->
+
+   <!-- Arrow drop down -->
     <div class="popuptext" id="myPopup">
         <div id="allImgs">
             <div>
@@ -127,8 +113,10 @@
         </div>
        
     </div>
+<!-- Arrow drop down -->
 
-    <div id="container" class="my-10 ">
+
+    <div id="container" >
        <div id="left">
         <div id="top">Cultgear Order Summary</div>
         <div id="items"></div>
@@ -142,4 +130,18 @@
    
     
 </body>
+<script>
+    updateLocation()
+function updateLocation(){
+    let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
+    console.log('Currentcity:', Currentcity)
+    
+    if(Currentcity===null){
+        document.getElementById("nameCity").innerText = "location";
+    }else{
+
+        document.getElementById("nameCity").innerText = Currentcity;
+    }
+}
+</script>
 </html>
