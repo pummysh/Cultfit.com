@@ -4,6 +4,7 @@ async function getCartItems() {
       try {
           let res = await fetch('http://localhost:2345/mycarts');
           let data = await res.json();
+          if(data.length <= 0) {return}
           console.log(data);
           if(data.length === 0) {window.location.reload();}
           showProduct(data)
@@ -94,42 +95,26 @@ async function quantI(pr){
     }  
 }
 
-// async function quantD(pr){
-//     console.log("pr:",pr);
-//     let a=pr.quantity-2;
-//     data={
-//         name:pr.name,
-//         brand:pr.brand,
-//         quantity:a,
-//         price:pr.price,
-//         mainPrice:pr.mainPrice,
-//         discount:pr.discount,
-//         size:pr.size,
-//         categary:pr.category,
-//         img:pr.img,
-//     }
-//     try {
-//         let response = await fetch("http://localhost:2345/mycarts", {
-//             method: 'PATCH',
-//             body: JSON.stringify(data),
-//             headers: {'Content-Type': 'application/json'}
-//         });
-//         let d = await response.json();
-//         console.log("d:", d);
-//         getCartItems()
-//     } catch (err) {
-//         console.log("e:", err);
-//     }  
-// }
-
-
-
 
 async function quantD(pr){
     let id=pr._id;
     let a=pr.quantity-1;
 
+    if(a<=0){
+
+        let response = await fetch(`http://localhost:2345/mycarts/${id}`, {
+
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json",
+            },
+
+        });
+        window.location.reload();
+
     
+
+    }
 
     let data={
         quantity:a
