@@ -50,6 +50,14 @@ router.post("", async (req, res) => {
   
 });
 
+
+
+router.put("/:id",async (req, res)=>{
+  let product= await Mycart.findById(req.params.id);
+  console.log(product);
+  return res.send(product)
+})
+
 router.delete("/:id", async (req, res) => {
   try {
     const mycart = await Mycart.findByIdAndDelete(req.params.id, req.body)

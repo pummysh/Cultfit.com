@@ -70,6 +70,18 @@ img{
     font-size: 1vw;
 }
 
+#div4{
+    display: flex;
+    width: 20%;
+    border:2px solid #FF0D9C;
+    border-radius:10px ;
+    height:20px;
+    justify-content:space-between;
+    padding-top: 3%;
+    padding-left:2%;
+    padding-right: 2%;
+}
+
 #right{
     display: flex;
     flex-direction: column;
