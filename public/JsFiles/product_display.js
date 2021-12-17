@@ -145,14 +145,7 @@ function category1() {
         }  
     }
     
-function checkpincode() {
-    let pincode = document.getElementById("pincode").value
-    if (pincode.length == 6) {
-        alert("Delivery is available to this address")
-    } else {
-        alert("Invalid pincode or Delivey not available")
-    }
-}
+
 
 //cart one
 function cart() {
@@ -259,4 +252,50 @@ function dlt(a){
     localStorage.setItem("mens_store", JSON.stringify(r));
    
     showProduct()
+}
+
+
+
+
+
+function checkpincod() {
+    let pincode = document.getElementById("pincode").value
+    if (pincode.length == 6) {
+        showAlert_Msg(DelAvailable,"green")
+        // alert("Delivery is available to this address")
+    } else {
+        showAlert_Msg(DelNotAva,"red")
+        // alert("Invalid pincode or Delivey not available")
+    }
+
+
+
+    pincode="";
+}
+
+
+
+
+async function checkpincode(){
+   
+    let pincode = document.getElementById("pincode").value
+
+    // let ipval = document.getElementById("ipval").value
+    let res = await fetch(`https://api.postalpincode.in/pincode/${pincode}`)
+    let data = await res.json()
+    console.log(pincode)
+   //  console.log(data)
+   
+   let checking = data[0].Status
+
+   if(checking == "Success"){
+    showAlert_Msg(DelAvailable,"green")
+    //    document.getElementById("showstatus").innerHTML = "Delievery is posible on this location"
+   }
+   else{
+    showAlert_Msg(DelNotAva,"red")
+    //    document.getElementById("showstatus").innerHTML = "Delievery is not posible on this location"
+   }
+    // pincode=""
+    document.getElementById("pincode").value=""
 }
