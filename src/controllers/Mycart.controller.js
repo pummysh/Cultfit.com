@@ -27,8 +27,14 @@ router.post("/:id", async (req, res) => {
 router.post("", async (req, res) => {
   
    try{
+    //  console.log(req.name);
+    // const product= await Mycart.find({name:{$eq:req.name}});
+
     const product = await Mycart.create(req.body);
-  
+    // if(product){
+    //   console.log(product);
+    // }
+    console.log(req.body);
     return res.status(201).send(product);
    } catch (e) {
     return res.status(500).json({ status: e.message });

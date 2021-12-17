@@ -9,6 +9,14 @@ app.set('view engine','ejs');
 app.use(express.static("public"))
 
 
+
+const mycartController =require('./controllers/Mycart.controller');
+const productController = require('./controllers/products.controller');
+
+app.use("/mycarts",mycartController);
+app.use("/products",productController);
+
+
 app.get("/payment",(req,res) => {
     res.render("pay");
 })

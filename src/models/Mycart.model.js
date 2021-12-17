@@ -10,13 +10,6 @@ const mycartSchema=new mongoose.Schema({
     categary:{type:String,required:false},
     quantity:{tpye:Number},
     img:[{type:String, required:false}],
-
-    // id: {
-    //     type:mongoose.Schema.Types.ObjectId,
-    //     ref:"product",
-    //     // required:true
-    // }
-   
 })
 
 module.exports = mongoose.model("mycart",mycartSchema);

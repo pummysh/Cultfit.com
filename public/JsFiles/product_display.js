@@ -119,31 +119,24 @@ function category1() {
 if (localStorage.getItem("mens_store") == null) {
     localStorage.setItem("mens_store", JSON.stringify([]))
 }
-
-// function addToCartBox(pr) {
-
-
-
     async function addToCartBox(pr){
         console.log("pr:",pr);
-        // let data = {
-        //     // name:{type :String},
-        //     // brand:{type :String,required:false,default:"CULTSPORT"},
-        //     // price:pr.price,
-        //     // mainPrice:{type:Number},
-        //     // discount:{type :String,required:false},
-        //     // size:[{type:String, required:false},],
-        //     // categary:{type:String,required:false},
-        //     // quantity:{tpye:Number},
-        //     // img:[{type:String, required:false}],
-        //     id:pr._id
-        // };
-
-        
+        data={
+            name:pr.name,
+            brand:pr.brand,
+            price:pr.price,
+            mainPrice:pr.mainPrice,
+            discount:pr.discount,
+            size:pr.size,
+            categary:pr.category,
+            quantity:pr.quantity,
+            img:pr.img,
+        }
         try {
             let response = await fetch("http://localhost:2345/mycarts", {
                 method: 'POST',
-                body: JSON.stringify(pr),
+                body: JSON.stringify(data),
+                headers: {'Content-Type': 'application/json'}
             });
             let d = await response.json();
             console.log("d:", d);
