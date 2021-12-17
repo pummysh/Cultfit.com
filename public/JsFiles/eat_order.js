@@ -165,22 +165,7 @@ function Clicked_Product(p) {
     // window.location = "ProductDiscription.html"
 }
 
-// if (localStorage.getItem("cart") === null) {
-//     localStorage.setItem("cart", JSON.stringify([]));
-// }
 
-// function addtocart(p) {
-//     // alert("yes")
-//     let cart_data = JSON.parse(localStorage.getItem("cart"));
-
-//     cart_data.push(p);
-
-//     localStorage.setItem("cart", JSON.stringify(cart_data));
-//     let cart_len = cart_data.length
-//     console.log('cart_len:', cart_len)
-//     updateCart()
-// }
-// updateCart()
 
 function updateCart() {
     let cart_data = JSON.parse(localStorage.getItem("Cart"));

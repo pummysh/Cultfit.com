@@ -127,3 +127,17 @@ imgMf.addEventListener("click", () => {
 let a = JSON.parse(localStorage.getItem("currentcity"));
 let location_div =document.getElementById("nameCity");
 location_div.textContent=a[0];
+
+
+updateLocation()
+function updateLocation(){
+    let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
+    console.log('Currentcity:', Currentcity)
+    
+    if(Currentcity===null){
+        document.getElementById("nameCity").innerText = "location";
+    }else{
+
+        document.getElementById("nameCity").innerText = Currentcity;
+    }
+}

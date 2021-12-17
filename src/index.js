@@ -27,9 +27,6 @@ app.get("/care",(req,res) => {
 app.get("/home",(req,res) => {
     res.render("home");
 })
-app.get("/cult",(req,res) => {
-    res.render("cult");
-})
 app.get("/desc",(req,res) => {
     res.render("descPage");
 })
