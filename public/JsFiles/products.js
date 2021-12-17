@@ -70,11 +70,35 @@ function addtocart(pr) {
     display_product.push(pr)
     localStorage.setItem("display_product", JSON.stringify(display_product))
     console.log(display_product)
-    window.location = "../views/product_display.html"
+    window.location = "/productdisplay"
 
 
 }
 
+// async function addtocart(pr){
+//     console.log("pr:",pr);
+//     data={
+//         name:pr.name,
+//         brand:pr.brand,
+//         price:pr.price,
+//         mainPrice:pr.mainPrice,
+//         discount:pr.discount,
+//         size:pr.size,
+//         categary:pr.category,
+//         img:pr.img,
+//     }
+//     try {
+//         let response = await fetch("http://localhost:2345/checkproduct", {
+//             method: 'POST',
+//             body: JSON.stringify(data),
+//             headers: {'Content-Type': 'application/json'}
+//         });
+//         let d = await response.json();
+//         console.log("d:", d);
+//     } catch (err) {
+//         console.log("e:", err);
+//     }  
+// }
 
 
 function backtohome() {

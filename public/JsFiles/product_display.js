@@ -116,20 +116,20 @@ function category() {
 function category1() {
     alert("Size Not Available Choose Another Size")
 }
-if (localStorage.getItem("mens_store") == null) {
-    localStorage.setItem("mens_store", JSON.stringify([]))
-}
+// if (localStorage.getItem("mens_store") == null) {
+//     localStorage.setItem("mens_store", JSON.stringify([]))
+// }
     async function addToCartBox(pr){
         console.log("pr:",pr);
         data={
             name:pr.name,
             brand:pr.brand,
+            quantity:1,
             price:pr.price,
             mainPrice:pr.mainPrice,
             discount:pr.discount,
             size:pr.size,
             categary:pr.category,
-            quantity:pr.quantity,
             img:pr.img,
         }
         try {
@@ -175,6 +175,8 @@ function cart_null() {
 function backtohome() {
     window.location.href = "../html/home.html"
 }
+
+
 
 
 

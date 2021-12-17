@@ -23,6 +23,17 @@ router.post("",async (req,res)=>{
     }
 });
 
+// adding product for display page
+// router.post("/checkproduct",async (req,res)=>{
+//         try{
+//                 const a= await Product.find({}).remove();
+//                 const product= await Product.create(req.body);
+//                 return   res.status(201).send(product);
+//         }catch(e){
+//                 return  res.status(500).json({status:e.message});
+//         }
+//     });
+
 
 
 // to update an womens collection
