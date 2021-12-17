@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pin.css">
+</head>
+<body>
+    <input type="number" id="ipval">
+    <button id="btn">Check</button>
+ <p id="showstatus"></p>
+</body>
+</html>
+
+<script>
+ let btn = document.getElementById("btn").addEventListener("click",checkpin)
+ 
+
+  async function checkpin(){
+   
+
+     let ipval = document.getElementById("ipval").value
+     let res = await fetch(`https://api.postalpincode.in/pincode/${ipval}`)
+     let data = await res.json()
+     console.log(ipval)
+    //  console.log(data)
+    
+    let checking = data[0].Status
+
+    if(checking == "Success"){
+        document.getElementById("showstatus").innerHTML = "Delievery is posible on this location"
+    }
+    else{
+        document.getElementById("showstatus").innerHTML = "Delievery is not posible on this location"
+    }
+     document.getElementById("ipval").value = ""
+
+
+
+   
+ }
+    
+</script>
