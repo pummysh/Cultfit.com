@@ -33,6 +33,9 @@ app.get("/desc",(req,res) => {
 app.get("/eat",(req,res) => {
     res.render("eat_order");
 })
+app.get("/eat_meal",(req,res) => {
+    res.render("eat_meal");
+})
 app.get("/gym",(req,res) => {
     res.render("gym");
 })

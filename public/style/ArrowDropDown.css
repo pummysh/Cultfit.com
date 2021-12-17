@@ -72,16 +72,20 @@
     }
     
     .popText3{
-        margin: 0 0 0 11%;
-        color: #ff0d9c;
+        margin: 0 0 0 15%;
+        color: #020102;
     }
     
     .popText4{
          margin: 0 0 0 11%;
-         color: #ff0d9c;
+        
     }
     
     .popText5{
+        margin: 0 0 0 7%;
+    }
+    
+    .popText6{
         margin: 0 0 0 7%;
     }
     
