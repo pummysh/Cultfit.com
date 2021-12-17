@@ -95,3 +95,17 @@ imgMf.addEventListener("click", () => {
     dAB.style.transform = `rotate(${c}deg)`
     dAB.style.transition = " 0.2s linear";
 })
+
+
+updateLocation()
+function updateLocation(){
+    let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
+    console.log('Currentcity:', Currentcity)
+    
+    if(Currentcity===null){
+        document.getElementById("nameCity").innerText = "location";
+    }else{
+
+        document.getElementById("nameCity").innerText = Currentcity;
+    }
+}

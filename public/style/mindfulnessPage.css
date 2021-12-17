@@ -2,6 +2,11 @@
 *{
     font-family: sans-serif;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
 .navbar{
     display: flex;
     /* justify-content: space-between; */
@@ -22,6 +27,14 @@
     
 }
 
+#th{
+   
+    font-weight: 700;
+}
+#mf{
+    color: #ff0d9c; 
+    font-weight: 700;
+}
 #myPopup{
     position: absolute;
     display: none;
@@ -109,9 +122,7 @@
 
 
 
-div{
-    /* border: 1px solid black; */
-}
+
 #allImgs{
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
@@ -134,6 +145,7 @@ div{
 .icons{
     display: grid;
     width:35%;
+    font-weight: 700;
     grid-template-columns: 50% 50%;
     font-family: sans-serif;
     font-weight: 500;

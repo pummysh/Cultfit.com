@@ -65,6 +65,13 @@ a{
   transform: rotateZ(180deg);
 }
 
+#th{
+    color: #ff0d9c; 
+    font-weight: 700;
+}
+#mf{
+    font-weight: 700;
+}
 
 #allImgs>div{
     box-sizing: border-box;
@@ -142,6 +149,7 @@ a{
 .icons{
     display: grid;
     width:35%;
+    font-weight: 700;
     grid-template-columns: 50% 50%;
     font-family: sans-serif;
     font-weight: 500;

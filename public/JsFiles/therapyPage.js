@@ -172,4 +172,15 @@ function myFunction() {
 
 // arrow=>
 
+updateLocation()
+function updateLocation(){
+    let Currentcity = JSON.parse(localStorage.getItem("currentcity"));
+    console.log('Currentcity:', Currentcity)
+    
+    if(Currentcity===null){
+        document.getElementById("nameCity").innerText = "location";
+    }else{
 
+        document.getElementById("nameCity").innerText = Currentcity;
+    }
+}
