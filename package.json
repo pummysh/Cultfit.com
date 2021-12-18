@@ -29,6 +29,7 @@
     "passport-google-oauth2": "^0.2.0",
     "uuid": "^8.3.2",
     "nodemon": "^2.0.15",
-    "razorpay": "^2.8.0"
+    "razorpay": "^2.8.0",
+    "tailwindcss": "^2.2.19"
   }
 }

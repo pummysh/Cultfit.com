@@ -283,3 +283,8 @@ img{
     box-shadow: 
     2px 2px 2px 2px #bababa;
 }
+
+#pay_price{
+    color: black;
+    font-weight:700 ;
+}

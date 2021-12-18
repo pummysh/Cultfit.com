@@ -194,7 +194,7 @@ function showPrice(t, d, p) {
     // console.log('t,d,p:', t, d, p)
     let total_price = document.getElementById("total_price").innerText = "₹" + t;
     let discount_price = document.getElementById("dis_price").innerText = "₹" + d;
-    let pay_price = document.getElementById("pay_price").innerText ="₹"+p;
+    let pay_price = document.getElementById("pay_price").innerText =p;
 }
 
 let btn=document.getElementById("CheckOut-btn");
@@ -250,7 +250,7 @@ function Coupon() {
         let new_pay_price = document.getElementById("pay_price").innerText
         new_pay_price = (pay_price - pay_price * 0.3)
         p = new_pay_price.toFixed(2);
-        document.getElementById("pay_price").innerText = "₹" + p;
+        document.getElementById("pay_price").innerText = p;
         flag = false;
     } else if (flag === false) {
         document.getElementById("error").innerText = "This Coupon is Expired now"
