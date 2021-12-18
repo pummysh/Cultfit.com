@@ -705,9 +705,10 @@ line-height: 3vw;
 }
 
 .vedio-icon{
-    top:78% ;
-    left: 78%;
-    color: whitesmoke;
+    /* top:78% ;
+    left: 78%; */
+    right:20%;
+    color:whitesmoke;
     position: absolute;
 }
 #alt{
