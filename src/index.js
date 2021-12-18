@@ -40,7 +40,7 @@ app.get("/home",(req,res) => {
     res.render("home");
 })
 
-app.post("/sucessful",(req,res) => {
+app.post("/successful",(req,res) => {
     res.render("successful");
 })
 

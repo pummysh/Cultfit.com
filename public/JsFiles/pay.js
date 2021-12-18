@@ -25,7 +25,8 @@ async function getCartItems() {
 getCartItems()
 
 function showProduct(data) {
-    let total_price = 0
+    let total_price = 0;
+    let q=0;
     let div = document.getElementById("items");
     div.innerHTML = null
     data.forEach((a) => {
@@ -48,6 +49,8 @@ function showProduct(data) {
         div3.id = "div3";
         div2.id = "div2";
         div1.id = "div1";
+
+        q=q+a.quantity;
 
         brand.textContent = "Brand" + ": " + a.brand;
         name.textContent = "Name: " + a.name;
@@ -83,7 +86,7 @@ function showProduct(data) {
 
     discount_price = Math.floor(total_price * 0.15);
     pay_price = total_price - discount_price
-    showPrice(total_price, discount_price, pay_price)
+    showPrice(total_price, discount_price, pay_price,q)
 }
 
 async function quantI(pr) {
@@ -159,11 +162,13 @@ async function quantD(pr) {
 }
 
 //checkout and coupon section 
-function showPrice(t, d, p) {
+function showPrice(t, d, p,q) {
     // console.log('t,d,p:', t, d, p)
     let total_price = document.getElementById("total_price").innerText = "₹" + t;
     let discount_price = document.getElementById("dis_price").innerText = "₹" + d;
     let pay_price = document.getElementById("pay_price").innerText =p;
+    let quantity = document.getElementById("quantity").innerText =q;
+
 }
 
 let btn=document.getElementById("CheckOut-btn");
@@ -201,11 +206,10 @@ async function payment(){
 
         var options = {
         "key": "rzp_test_MTzmvOejm2fa4j", 
-        "name": "Smallcase",
-        "description": "Proceed to invest",
-        "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/ee/6b/11/ee6b115c-516e-8aa8-155b-d7059325a22a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+        "name": "Cult Fit",
+        "image": "https://static.cure.fit/assets/images/curefit-v-man.svg",
         "order_id": info.id,
-        "callback_url": "http://localhost:2345/sucessful",
+        "callback_url": "http://localhost:2345/successful",
         "theme": {
             "color": "#3399cc"
         }   
