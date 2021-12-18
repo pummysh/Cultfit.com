@@ -194,13 +194,12 @@ function showPrice(t, d, p) {
     // console.log('t,d,p:', t, d, p)
     let total_price = document.getElementById("total_price").innerText = "₹" + t;
     let discount_price = document.getElementById("dis_price").innerText = "₹" + d;
-    let pay_price = document.getElementById("pay_price").innerText =  p;
+    let pay_price = document.getElementById("pay_price").innerText ="₹"+p;
 }
 
 let btn=document.getElementById("CheckOut-btn");
 btn.addEventListener("click",payment);
 
-<<<<<<< Updated upstream
 async function payment(){
     let pay_price = +document.getElementById("pay_price").innerText
 
@@ -238,10 +237,8 @@ async function payment(){
     }
 }
 
-=======
 
 //coupon section
->>>>>>> Stashed changes
 let coupon_btn = document.getElementById("Coupon-btn")
 coupon_btn.addEventListener("click", Coupon)
 flag = true;
@@ -274,9 +271,9 @@ function Coupon() {
 
 
 
- const btn = document.getElementById("location")
+ const location_btn = document.getElementById("location")
  const input=document.getElementById("location-btn")
- btn.addEventListener("click", () => {
+ location_btn.addEventListener("click", () => {
      if(navigator.geolocation){       //if browser supported geolocation api
         navigator.geolocation.getCurrentPosition(onSuccess,onError)
      }
