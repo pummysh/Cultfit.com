@@ -161,37 +161,49 @@ function showPrice(t, d, p) {
     console.log('t,d,p:', t, d, p)
     let total_price = document.getElementById("total_price").innerText = "₹" + t;
     let discount_price = document.getElementById("dis_price").innerText = "₹" + d;
-    let pay_price = document.getElementById("pay_price").innerText = "₹" + p;
+    let pay_price = document.getElementById("pay_price").innerText =  p;
 }
 
+let btn=document.getElementById("CheckOut-btn");
+btn.addEventListener("click",payment);
 
-axios.post('/order').then((info) => {
-    console.log(info);
+async function payment(){
+    let pay_price = +document.getElementById("pay_price").innerText
 
-// require("dotenv").config();
-let pay_price = document.getElementById("pay_price").innerText
-console.log(pay_price);
-var options = {
-"key": "rzp_test_MTzmvOejm2fa4j", // Enter the Key ID generated from the Dashboard
-"name": "Cult Fit",
-"amount":pay_price*100 , // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-"currency": "INR",
-"description": "Transaction",
-"image": "https://static.cure.fit/assets/images/cult-brand.svg",
-"order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-"callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
-"theme": {
-"color": "#3399cc"
+    try{
+        let data = await fetch("http://localhost:2345/order",{
+            method:'POST',
+            body:JSON.stringify({price: pay_price*100}),
+            headers:{
+                'Content-Type':"application/json"
+            }
+        });
+
+        let info = await data.json();
+
+        var options = {
+        "key": "rzp_test_MTzmvOejm2fa4j", 
+        "name": "Smallcase",
+        "description": "Proceed to invest",
+        "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/ee/6b/11/ee6b115c-516e-8aa8-155b-d7059325a22a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+        "order_id": info.id,
+        "callback_url": "http://localhost:2000/razorpay/result",
+        "theme": {
+            "color": "#3399cc"
+        }   
+        };
+
+
+        let rzp1 = new Razorpay(options);
+        rzp1.open();
+
+
+    }
+    catch(e){
+        console.log(e.message);
+    }
 }
-};
 
-var rzp1 = new Razorpay(options);
-document.getElementById('CheckOut-btn').onclick = function(e){
-rzp1.open();
-e.preventDefault();
-}
-
-})
 let coupon_btn = document.getElementById("Coupon-btn")
 coupon_btn.addEventListener("click", Coupon)
    flag=true;

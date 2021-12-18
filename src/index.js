@@ -76,7 +76,7 @@ app.get("/products",(req,res) => {
 app.post("/order",(req,res) => {
     
     let options={
-        amount: 50000,
+        amount: req.body.price,
         currency: "INR",
         receipt: "receipt#1",
         // notes: {
