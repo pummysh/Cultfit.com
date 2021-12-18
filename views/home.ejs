@@ -529,10 +529,16 @@
             </div>
 
             <div>
+                
                 <div class="google">
                     <div style="padding-right: 5px;">Continue with</div>
-                    <div>
-                        <a href="/auth/google" class="btn btn-danger"><span class="fa fa-google"></span> SignIn with Google</a>
+                    <div  >
+                        <a href="http://localhost:2345/auth/google">
+
+
+                            <img src="https://static.cure.fit/assets/images/google-logo.svg" alt="" >
+                        </a>
+                    
                         <img src="https://static.cure.fit/assets/images/facebook.svg" alt="">
                         <img src="https://static.cure.fit/assets/images/email.png" alt="">
                     </div>
@@ -620,6 +626,13 @@
     function stopLoading(){
         preloader.style.display="none";
     }
+function googleAuth(){
+//   window.href="/auth/google"
+  let a = document.createElement("a");
+  a.href="/auth/google"
+  let auth = document.getElementById("googleAuth")
+  auth.append(a)
+}
     </script>
 </body>
 

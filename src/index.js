@@ -15,59 +15,7 @@ const razorpay= new Razorpay({
 const path=require('path');
 app.use(express.json());
 
-const express = require('express');
-const passport = require('./config/passport');
-const {register,login} = require('./controller/user.controller')
 
-const post = require('./controller/post.controller')
-
-const app = express();
-app.use(express.json())
-
-app.use(passport.initialize());
-app.set('view engine', 'ejs')
-
-passport.serializeUser(function( {user,token},done) {
-done(null,{user,token});
-})
-
-passport.deserializeUser(function( {user,token},done) {
-    done(null,{user,token});
-})
-
-app.get('/', function(req, res) {
-    res.render('auth');
-  });
-
-app.get("/auth/google/failure",function (req,res){
-    return res.send("Something went wrong")
-})
-
-app.get('/auth/google',
-  passport.authenticate('google', { scope:
-      [ 'email', 'profile' ] }
-));
-
-app.get( '/auth/google/callback',
-    passport.authenticate( 'google', {
-        failureRedirect: '/auth/google/failure'
-}),function (req,res) {
-    
-console.log("user 11",req.profile);
-// console.log("picture", req.profile._json.picture);
-return res.status(200).send({user:req.user.user,token:req.user.token})
-    // return res.send("hey success")
-});
-
-
-
-app.use("/register",register)
-
-
-app.use("/login",login)
-app.use("/post",post)
-
-module.exports =app;
 app.set('view engine','ejs');
 
 app.use(express.static("public"))
@@ -142,5 +90,43 @@ app.post("/order",(req,res) => {
         res.json(order);
     })
 })
+
+// google auth
+const passport = require('./configs/passport');
+
+passport.serializeUser(function( {user,token},done) {
+done(null,{user,token});
+})
+
+passport.deserializeUser(function( {user,token},done) {
+    done(null,{user,token});
+})
+
+app.get('/', function(req, res) {
+    res.render('home');
+  });
+
+app.get("/auth/google/failure",function (req,res){
+    return res.send("Something went wrong")
+})
+
+app.get('/auth/google',
+  passport.authenticate('google', { scope:
+      [ 'email', 'profile' ] }
+));
+
+app.get( '/auth/google/callback',
+    passport.authenticate( 'google', {
+        failureRedirect: '/auth/google/failure'
+}),function (req,res) {
+    
+console.log("user 11",req.profile);
+// console.log("picture", req.profile._json.picture);
+return res.status(200).send({user:req.user.user,token:req.user.token})
+    // return res.send("hey success")
+});
+
+// google auth
+
 
 module.exports =app;
