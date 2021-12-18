@@ -135,3 +135,29 @@ async function quantD(pr){
         console.log("e:", err);
     }  
 }
+
+
+axios.post('/order').then((info) => {
+    console.log(info);
+
+// require("dotenv").config();
+
+var options = {
+"key": "rzp_test_MTzmvOejm2fa4j", // Enter the Key ID generated from the Dashboard
+"name": "Cult Fit",
+"description": "Transaction",
+"image": "https://static.cure.fit/assets/images/cult-brand.svg",
+"order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+"callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+"theme": {
+"color": "#3399cc"
+}
+};
+
+var rzp1 = new Razorpay(options);
+document.getElementById('rzp-button1').onclick = function(e){
+rzp1.open();
+e.preventDefault();
+}
+
+})

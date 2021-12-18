@@ -1,5 +1,17 @@
 const express=require('express');
 let app=express();
+
+
+const Razorpay=require('razorpay');
+require('dotenv').config();
+
+const razorpay= new Razorpay({
+    key_id:process.env.KEY_ID,
+    key_secret:process.env.KEY_SECRET
+})
+
+
+
 const path=require('path');
 app.use(express.json());
 
@@ -61,5 +73,22 @@ app.get("/products",(req,res) => {
     res.render("products");
 })
 
+app.post("/order",(req,res) => {
+
+    let options={
+        amount: 50000,
+        currency: "INR",
+        receipt: "receipt#1",
+        // notes: {
+        //     key1: "value3",
+        //     key2: "value2"
+        // }
+    }
+
+    razorpay.orders.create(options, function(err, order) {
+        console.log(order);
+        res.json(order);
+    })
+})
 
 module.exports =app;
