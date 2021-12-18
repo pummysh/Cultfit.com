@@ -1,4 +1,4 @@
-window.addEventListener("load",()=>{
+// window.addEventListener("load",()=>{
 
 async function getCartItems() {
 
@@ -23,7 +23,7 @@ async function getCartItems() {
 getCartItems()
 
 function showProduct(data) {
-   let total_price=0
+    let total_price = 0
     let div = document.getElementById("items");
     div.innerHTML = null
     data.forEach((a) => {
@@ -72,8 +72,8 @@ function showProduct(data) {
         div.append(div3);
 
 
-        total_price+= a.price * a.quantity;
-       
+        total_price += a.price * a.quantity;
+
 
     })
 
@@ -128,7 +128,7 @@ async function quantD(pr) {
             },
 
         });
-        window.location="/payment";
+        window.location = "/payment";
 
         // showProduct(data)
 
@@ -156,67 +156,155 @@ async function quantD(pr) {
     }
 }
 
-
-function showPrice(t, d, p) {
-    console.log('t,d,p:', t, d, p)
-    let total_price = document.getElementById("total_price").innerText = "₹" + t;
-    let discount_price = document.getElementById("dis_price").innerText = "₹" + d;
-    let pay_price = document.getElementById("pay_price").innerText = "₹" + p;
-}
-
-
 axios.post('/order').then((info) => {
     console.log(info);
 
-// require("dotenv").config();
-let pay_price = document.getElementById("pay_price").innerText
-console.log(pay_price);
-var options = {
-"key": "rzp_test_MTzmvOejm2fa4j", // Enter the Key ID generated from the Dashboard
-"name": "Cult Fit",
-"amount":pay_price*100 , // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-"currency": "INR",
-"description": "Transaction",
-"image": "https://static.cure.fit/assets/images/cult-brand.svg",
-"order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-"callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
-"theme": {
-"color": "#3399cc"
-}
-};
+    // require("dotenv").config();
+    let pay_price = document.getElementById("pay_price").innerText
+    console.log(pay_price);
+    var options = {
+        "key": "rzp_test_MTzmvOejm2fa4j", // Enter the Key ID generated from the Dashboard
+        "name": "Cult Fit",
+        "amount": pay_price * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+        "currency": "INR",
+        "description": "Transaction",
+        "image": "https://static.cure.fit/assets/images/cult-brand.svg",
+        "order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
+        "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
+        "theme": {
+            "color": "#3399cc"
+        }
+    };
 
-var rzp1 = new Razorpay(options);
-document.getElementById('CheckOut-btn').onclick = function(e){
-rzp1.open();
-e.preventDefault();
-}
+    var rzp1 = new Razorpay(options);
+    document.getElementById('CheckOut-btn').onclick = function (e) {
+        rzp1.open();
+        e.preventDefault();
+    }
 
 })
+
+
+
+
+
+
+//checkout and coupon section 
+function showPrice(t, d, p) {
+    // console.log('t,d,p:', t, d, p)
+    let total_price = document.getElementById("total_price").innerText = "₹" + t;
+    let discount_price = document.getElementById("dis_price").innerText = "₹" + d;
+    let pay_price = document.getElementById("pay_price").innerText =  p;
+}
+
+let btn=document.getElementById("CheckOut-btn");
+btn.addEventListener("click",payment);
+
+<<<<<<< Updated upstream
+async function payment(){
+    let pay_price = +document.getElementById("pay_price").innerText
+
+    try{
+        let data = await fetch("http://localhost:2345/order",{
+            method:'POST',
+            body:JSON.stringify({price: pay_price*100}),
+            headers:{
+                'Content-Type':"application/json"
+            }
+        });
+
+        let info = await data.json();
+
+        var options = {
+        "key": "rzp_test_MTzmvOejm2fa4j", 
+        "name": "Smallcase",
+        "description": "Proceed to invest",
+        "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/ee/6b/11/ee6b115c-516e-8aa8-155b-d7059325a22a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+        "order_id": info.id,
+        "callback_url": "http://localhost:2000/razorpay/result",
+        "theme": {
+            "color": "#3399cc"
+        }   
+        };
+
+
+        let rzp1 = new Razorpay(options);
+        rzp1.open();
+
+
+    }
+    catch(e){
+        console.log(e.message);
+    }
+}
+
+=======
+
+//coupon section
+>>>>>>> Stashed changes
 let coupon_btn = document.getElementById("Coupon-btn")
 coupon_btn.addEventListener("click", Coupon)
-   flag=true;
+flag = true;
+
 function Coupon() {
 
     let code = document.getElementById("coupan_code").value
-    if (code === "masai30" &&flag===true) {
+    if (code === "masai30" && flag === true) {
         let new_pay_price = document.getElementById("pay_price").innerText
-        new_pay_price = pay_price - pay_price * 0.3
-        new_pay_price.toFixed(2);
-        document.getElementById("pay_price").innerText = new_pay_price;
-        flag=false;
-    } else if(flag===false){
-        document.getElementById("error").innerText = "This Coupan is Expired now"
+        new_pay_price = (pay_price - pay_price * 0.3)
+        p = new_pay_price.toFixed(2);
+        document.getElementById("pay_price").innerText = "₹" + p;
+        flag = false;
+    } else if (flag === false) {
+        document.getElementById("error").innerText = "This Coupon is Expired now"
         setTimeout(() => {
             document.getElementById("error").innerText = " "
         }, 2000)
     } else {
-        document.getElementById("error").innerText = "! INVALID COUPAN"
+        document.getElementById("error").innerText = "! INVALID COUPON"
         setTimeout(() => {
             document.getElementById("error").innerText = " "
         }, 2000)
     }
-    document.getElementById("coupan_code").value="";
+    document.getElementById("coupan_code").value = "";
 }
 
 
-});
+// });
+
+
+
+ const btn = document.getElementById("location")
+ const input=document.getElementById("location-btn")
+ btn.addEventListener("click", () => {
+     if(navigator.geolocation){       //if browser supported geolocation api
+        navigator.geolocation.getCurrentPosition(onSuccess,onError)
+     }
+     else{
+         input.value = "your browser not support"
+     }
+ })
+ function onSuccess(position){
+    //  console.log(position)
+    let {latitude,longitude} = position.coords;
+    // https://api.opencagedata.com/geocode/v1/json?q=LAT+LNG&key=YOUR-API-KEY
+ fetch(`https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=c2ab82e7d6484f4fa91f9e16e7bd159f`)
+//  .then(console.log)
+//   .then(response => response.json()).then(result => console.log(result))
+.then(response => response.json()).then(result => {
+    let alldetails = result.results[0].components;
+    // console.log(alldetails)
+    let{city,postcode,state,country} = alldetails
+    // console.log(city,postcode,state,country)
+    input.value =`${city} ${postcode}, ${state} ,${country}`
+})
+ }
+ function onError(error){
+     if(error.code == 1){
+         input.value = "you denied the request"
+     }
+     else if(error.code == 2){
+         input.value = "something went wrong"
+     }
+     input.setAttribute("disabled",true)
+ }

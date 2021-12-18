@@ -1,5 +1,5 @@
 
-window.addEventListener("load",()=>{
+// window.addEventListener("load",()=>{
 
 
 
@@ -44,16 +44,16 @@ function showproduct(data) {
         let div1 = document.createElement("div")
         let price = document.createElement("p")
         price.setAttribute("class", "text-base font-normal")
-        price.textContent = "₹ " + pr.price
+        price.textContent = "₹" + pr.price
         div1.appendChild(price)
         let div2 = document.createElement("div")
         let main_price = document.createElement("p")
         main_price.setAttribute("class", "text-xs py-1 line-through text-gray-400")
-        main_price.textContent = "₹ " + pr.mainPrice
+        main_price.textContent = " ₹" + pr.mainPrice
         div2.appendChild(main_price)
         let div3 = document.createElement("div")
         let discount = document.createElement("p")
-        discount.setAttribute("class", "text-red-700 text-xs py-1")
+        discount.setAttribute("class", "pinkC text-xs py-1")
         discount.textContent = pr.discount + "% off"
         div3.appendChild(discount)
         flex_div.append(div1, div2, div3)
@@ -173,4 +173,4 @@ function myFunction() {
 
 
 
-});   //important
+// });   //important

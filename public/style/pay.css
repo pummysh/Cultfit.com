@@ -189,11 +189,13 @@ img{
 #right{
     width: 50%;
     display: flex;
-    outline:1px solid red;
+    box-shadow:
+    /* .3rem .3rem .3rem .3rem gray; */
+    .3rem .3rem .3rem .3rem gray;
     flex-direction: column;
     gap:1.5rem;
     margin: 3rem 1rem;
-    padding: 1rem 1rem;
+    padding: 2rem 1rem;
     box-sizing: border-box;
 }
 #right >div{
