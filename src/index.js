@@ -74,7 +74,7 @@ app.get("/products",(req,res) => {
 })
 
 app.post("/order",(req,res) => {
-
+    
     let options={
         amount: 50000,
         currency: "INR",
@@ -84,7 +84,7 @@ app.post("/order",(req,res) => {
         //     key2: "value2"
         // }
     }
-
+    console.log("options",options);
     razorpay.orders.create(options, function(err, order) {
         console.log(order);
         res.json(order);

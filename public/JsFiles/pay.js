@@ -169,10 +169,13 @@ axios.post('/order').then((info) => {
     console.log(info);
 
 // require("dotenv").config();
-
+let pay_price = document.getElementById("pay_price").innerText
+console.log(pay_price);
 var options = {
 "key": "rzp_test_MTzmvOejm2fa4j", // Enter the Key ID generated from the Dashboard
 "name": "Cult Fit",
+"amount":pay_price*100 , // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
+"currency": "INR",
 "description": "Transaction",
 "image": "https://static.cure.fit/assets/images/cult-brand.svg",
 "order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
@@ -183,7 +186,7 @@ var options = {
 };
 
 var rzp1 = new Razorpay(options);
-document.getElementById('rzp-button1').onclick = function(e){
+document.getElementById('CheckOut-btn').onclick = function(e){
 rzp1.open();
 e.preventDefault();
 }

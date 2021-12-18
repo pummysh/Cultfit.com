@@ -1,5 +1,5 @@
 
-window.addEventListener("load",()=>{
+// window.addEventListener("load",()=>{
 
 
 let body = document.body;
@@ -388,4 +388,4 @@ function cart_null() {
 
 
 
-});   //important
+// });   //important
