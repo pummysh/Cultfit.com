@@ -70,4 +70,17 @@ router.delete("/:id", async (req, res) => {
   }
 });
 
+router.delete("/cart/deleteAll", async (req, res) => {
+  try {
+    console.log("dfsgvbjsyh")
+    const mycart = await Mycart.deleteMany()
+      .lean()
+      .exec();
+    return res.send({ mycart });
+  } catch (e) {
+    return res.status(500).json({ status: e.message });
+  }
+});
+
+
 module.exports = router;

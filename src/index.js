@@ -40,9 +40,12 @@ app.get("/home",(req,res) => {
     res.render("home");
 })
 
-app.post("/home",(req,res) => {
-    console.log(req.body)
-    res.render("home");
+app.post("/sucessful",(req,res) => {
+    res.render("successful");
+})
+
+app.get("/sucessful",(req,res) => {
+    res.render("successful");
 })
 
 app.get("/desc",(req,res) => {
@@ -78,9 +81,7 @@ app.get("/therapy",(req,res) => {
 app.get("/products",(req,res) => {
     res.render("products");
 })
-app.get("/successful",(req,res) => {
-    res.render("successful");
-})
+
 
 app.post("/order",(req,res) => {
     
