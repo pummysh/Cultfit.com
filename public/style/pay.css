@@ -52,7 +52,7 @@ a{
 
 .login{
     display: flex;
-    width: 14%;
+    width: 18%;
     padding: 10px;
     margin-left: auto;
     align-items: center;
@@ -120,19 +120,24 @@ a{
 #container{
     display: flex;
     width: 60%;
-    margin: 3rem auto;
+    margin: 1rem auto;
+    box-shadow:
+    .1rem .2rem .2rem .2rem #bababa;
 }
 
 #left{
-    width:60%
+    width:100%;
+    padding: 1rem 1rem;
 }
 
 
 #top{
     color: black;
+    width: max-content;
     font-weight: 700;
     font-size: 22px;
-    margin: 1rem;
+    margin: 2rem auto;
+    
 
 }
 #items{
@@ -187,26 +192,37 @@ img{
 }
 
 #right{
-    width: 50%;
+    width: 100%;
+    /* width: max-content; */
     display: flex;
-    box-shadow:
-    .1rem .2rem .2rem .2rem #bababa;
     flex-direction: column;
     gap:1.5rem;
-    margin: 3rem 1rem;
-    padding: 2rem 1rem;
+    margin: 0 1rem;
+    padding: 1rem 1rem;
     box-sizing: border-box;
 }
 
 #right >div{
     display: flex;
 }
+
+    
+.loc{
+    color: #FF0D9C;
+    margin-right: auto;
+   font-weight: 700;
+   font-size: 22px;
+}
+
+
 .Total_payable span{
     font-weight: 700;
 }
 #coupan_code{
+   
     border: none;
     outline: none;
+    width: fit-content;
     border-radius: 5px;
     font-size:15px ;
     line-height: 15px;
@@ -287,4 +303,13 @@ img{
 #pay_price{
     color: black;
     font-weight:700 ;
+}
+
+
+@media (max-width:900px) {
+    #container{
+        flex-direction: column;
+        width: 50%;
+        padding: 1rem 3rem;
+    }
 }
