@@ -217,11 +217,7 @@ function Coupon() {
         let new_pay_price = document.getElementById("pay_price").innerText
         new_pay_price = (pay_price - pay_price * 0.3)
         p = new_pay_price.toFixed(2);
-<<<<<<< Updated upstream
-        document.getElementById("pay_price").innerText = p;
-=======
         document.getElementById("pay_price").innerText =p;
->>>>>>> Stashed changes
         flag = false;
     } else if (flag === false) {
         document.getElementById("error").innerText = "This Coupon is Expired now"

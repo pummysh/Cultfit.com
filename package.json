@@ -26,14 +26,10 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.14",
     "nodemon": "^2.0.15",
-<<<<<<< Updated upstream
-    "razorpay": "^2.8.0",
-    "tailwindcss": "^2.2.19"
-=======
+    "tailwindcss": "^2.2.19",
     "passport": "^0.5.2",
     "passport-google-oauth2": "^0.2.0",
     "razorpay": "^2.8.0",
     "uuid": "^8.3.2"
->>>>>>> Stashed changes
   }
 }
