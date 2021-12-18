@@ -1,4 +1,6 @@
-// window.addEventListener("load",()=>{
+window.addEventListener("load",()=>{
+
+
 
 async function getCartItems() {
 
@@ -272,3 +274,7 @@ function Coupon() {
      }
      input.setAttribute("disabled",true)
  }
+
+
+
+})

@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style/tailwind.css">
     <link rel="stylesheet" href="style/ToastNotification.css">
     <script rel="preload" src="JsFiles/product_display.js" async></script>
-    <script rel="preload" src="JsFiles/ToastNotification.js" async></script>
     <script rel="preload" src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script rel="preload" src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png"
     data-rh="true">
 <title>cult.fit - health food | fitness | meditaion</title>
@@ -112,11 +111,11 @@
 
 <!-- alert system -->
 <div class="alert hide green greenborder">
-    <!-- <span class="fas fa-exclamation-circle"></span> -->
-    <span id="mark" class="fas fa-check"></span>
-    <span id="msg" class="msg "></span>
+    <span id="msg" class="msg"></span>
     <span class="close-btn">
-        <span class="fas fa-times "></span>
+        <span class="material-icons">
+            close
+            </span>   
     </span>
 </div>
 <!-- alert system -->
@@ -153,7 +152,7 @@
            </div>
          <div class="grid grid-cols-2 gap-2 my-5">
             <button class="border text-white bg-red-700 rounded-xl text-base font-bold p-2" id="addtocart">Add to cart</button>
-            <button class="border text-white bg-red-700 rounded-xl text-base font-bold p-2">Buy Now</button>
+            <button class="border text-white bg-red-700 rounded-xl text-base font-bold p-2"  id="BuyNow">Buy Now</button>
          </div>
          </div>
         <!-- button div -->
@@ -177,7 +176,7 @@
             <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
           </svg>
-          <button class="text-lg ml-2 text-red-600" onclick="checkpincode()">check</button>
+          <button id="checkPinCode" class="text-lg ml-2 text-red-600" >check</button>
            </div>
     </div>
           <!-- pincode -->
@@ -287,9 +286,7 @@
          </footer>
 
 
-
-
-     <script>
+<script>
          let preloader=document.getElementById("loading")
     function stopLoading(){
         preloader.style.display="none";
