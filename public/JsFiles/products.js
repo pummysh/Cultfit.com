@@ -1,5 +1,5 @@
 
-window.addEventListener("load",()=>{
+// window.addEventListener("load",()=>{
 
 
 
@@ -173,4 +173,4 @@ function myFunction() {
 
 
 
-});   //important
+// });   //important

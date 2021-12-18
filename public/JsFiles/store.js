@@ -1,6 +1,6 @@
 
 
-window.addEventListener("load",()=>{
+// window.addEventListener("load",()=>{
 
 
 let slideshow1 = document.getElementById('slideshow123');
@@ -134,4 +134,4 @@ yes.forEach((el) => {
 // FAQs
 
 
-});
+// });
