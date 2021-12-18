@@ -13,7 +13,8 @@
     <script  rel="preload" src="JsFiles/home.js" async></script>
 </head>
 
-<body>
+<body onload="stopLoading()">
+ 
     <div id="blur">
         <nav class="navbar">
            <a href="http://localhost:2345/home">
@@ -91,12 +92,14 @@
                 </div>
                 <div  onclick="login()" id="login-txt" style="font-size: 14px">Login</div>
                 <div id="cart-icon" onclick="cart()">
+                    <a href="/payment">
                     <img src="https://static.cure.fit/assets/images/cart-image.svg" alt="">
+                </a>
                 </div>
             </div>
         </nav>
 
-
+        <div id="loading"></div>
 
 
         <div id="container" class="container">
@@ -612,6 +615,12 @@
     </div>
 
 
+    <script>
+        let preloader=document.getElementById("loading")
+    function stopLoading(){
+        preloader.style.display="none";
+    }
+    </script>
 </body>
 
 </html>

@@ -10,7 +10,8 @@
     data-rh="true">
 <title>cult.fit - health food | fitness | meditaion</title>
 </head>
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden" onload="stopLoading()">
+    <div id="loading"></div>
     <nav class="fixed w-full bg-white pt-2 top-0">
         <div class="flex justify-between shadow-md">
             <div class="flex gap-2 mb-3">
@@ -181,6 +182,12 @@
            </div>
        </div>
        </footer>
-   
+
+   <script>
+       let preloader=document.getElementById("loading")
+    function stopLoading(){
+        preloader.style.display="none";
+    }
+   </script>
 </body>
 </html>

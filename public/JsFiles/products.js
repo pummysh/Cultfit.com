@@ -1,3 +1,8 @@
+
+window.addEventListener("load",()=>{
+
+
+
 async function showProductsForWomens() {
 
   const data="womens"
@@ -164,3 +169,8 @@ function myFunction() {
 
 
 }
+
+
+
+
+});   //important

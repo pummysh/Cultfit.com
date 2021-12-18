@@ -1,3 +1,8 @@
+window.addEventListener("load",()=>{
+
+
+
+
 function showproduct() {
 
     let flex_div = document.getElementById("flex")
@@ -299,3 +304,12 @@ async function checkpincode(){
     // pincode=""
     document.getElementById("pincode").value=""
 }
+
+
+
+
+
+
+
+
+});

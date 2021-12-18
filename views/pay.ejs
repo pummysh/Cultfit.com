@@ -12,9 +12,8 @@
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 </head>
-<body>
-  
-   
+<body  onload="stopLoading()">        
+   <div id="loading"></div>
 <!-- navebar -->
     <nav class="navbar">
         <div class="logo">
@@ -22,9 +21,11 @@
                 <img src="https://static.cure.fit/assets/images/curefit-v-man.svg" alt="">
             </a>
         </div>
-        <div id="FitImgBox" onclick="myFunction()">
+        <div id="FitImgBox" >
+            <a href="/store">
             <img src="https://cdn-images.cure.fit/www-curefit-com/image/upload/image/header-web/store_fit.svg"
                 class="imgMF">
+            </a>
         </div>
         <div id="downArrowBox" onclick="myFunction()">
             <img src="https://static.cure.fit/assets/images/arrow-clp.svg" class="imgMF" id="imgMf">
@@ -121,9 +122,27 @@
         <div id="top">Cultgear Order Summary</div>
         <div id="items"></div>
        </div>
+      
        <div id="right">
             <input type="text">
             <button id="rzp-button1">CheckOut</button>
+           <hr>
+           <div>
+               <span class="price">Total Price</span> <span class="margin_left price"id="total_price">0</span>
+           </div>
+           <div>
+               <span class="price">(-)Discount</span> <span class="margin_left price" id="dis_price">0</span>
+           </div>
+            <div>
+              <input id ="coupan_code" type="text" placeholder="Enter coupan code"></input> <button class="margin_left"  id="Coupon-btn">Apply</button> 
+            </div>
+            <p id="error"></p>
+            <div class="Total_payable">
+                <span >Total Payable</span> <span class="margin_left price" id="pay_price">0</span>
+            </div>
+              
+
+            <button id="CheckOut-btn">CheckOut</button>
        </div>
     </div>
     
@@ -131,6 +150,12 @@
     
 </body>
 <script>
+    let preloader=document.getElementById("loading")
+    function stopLoading(){
+        preloader.style.display="none";
+    }
+
+
     updateLocation()
 function updateLocation(){
     let Currentcity = JSON.parse(localStorage.getItem("currentcity"));

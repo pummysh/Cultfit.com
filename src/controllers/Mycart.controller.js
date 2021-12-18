@@ -16,7 +16,7 @@ router.post("/:id", async (req, res) => {
   try {
     const product = await Product.findById(req.params.id).lean().exec();
     const mycart = Mycart.insert({ name: "test" });
-    console.log("product:", product);
+    // console.log("product:", product);
     return res.status(201).send(mycart);
     // return   res.status(201).send(product);
   } catch (e) {
@@ -55,7 +55,7 @@ router.post("", async (req, res) => {
 router.patch("/:id",async (req, res)=>{
   
   let product= await Mycart.findByIdAndUpdate(req.params.id,req.body,{new:true}).lean().exec();
-  console.log(product);
+  // console.log(product);
   return res.send(product)
 })
 

@@ -1,4 +1,8 @@
 // arrow=>
+
+window.addEventListener("load",()=>{
+
+
 let mindFitBox = document.getElementById("FitImgBox")
 var c = 0;
 mindFitBox.addEventListener("click", () => {
@@ -58,3 +62,7 @@ function myFunction() {
 }
 
 // arrow=>
+
+
+
+}); //important
