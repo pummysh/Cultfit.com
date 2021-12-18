@@ -72,6 +72,9 @@ app.get("/therapy",(req,res) => {
 app.get("/products",(req,res) => {
     res.render("products");
 })
+app.get("/successful",(req,res) => {
+    res.render("successful");
+})
 
 app.post("/order",(req,res) => {
     
