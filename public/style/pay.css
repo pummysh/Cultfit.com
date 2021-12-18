@@ -279,6 +279,15 @@ img{
     left: 1em;
 }
 
+#error-loc{
+     color: red;
+    font-weight: 600;
+    z-index:100;
+    position: relative;
+    top:-1em;
+    right: 2em;
+}
+
 #location{
     color: #FF0D9C;
     font-size: 2.5em;
