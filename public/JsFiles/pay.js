@@ -1,4 +1,6 @@
-// window.addEventListener("load",()=>{
+window.addEventListener("load",()=>{
+
+
 
 async function getCartItems() {
 
@@ -168,6 +170,22 @@ let btn=document.getElementById("CheckOut-btn");
 btn.addEventListener("click",payment);
 
 async function payment(){
+    
+
+    // location validation
+    let loc_value=document.getElementById("location-btn").value
+
+    if(loc_value===""){        
+      //show validation error
+        document.getElementById("error-loc").innerText = "*Please Enter address"
+        setTimeout(() => {
+            document.getElementById("error-loc").innerText = " "
+        }, 2000)
+
+        return
+    }
+
+
     let pay_price = +document.getElementById("pay_price").innerText
 
     try{
@@ -272,3 +290,7 @@ function Coupon() {
      }
      input.setAttribute("disabled",true)
  }
+
+
+
+})

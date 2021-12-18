@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="JsFiles/sucessful.js" async></script>
     <title>Payment | Successful</title>
+    <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png"
+    data-rh="true">
     <style>
         .cont{
     width: 60%;
@@ -71,9 +73,35 @@ button {
     margin-top: -20px;
 }
 
+
+#payment{
+    /* display: none; */
+    width: 70%;
+   height: 100vh;
+   position: static;
+   background: #fff
+    url(https://i.pinimg.com/originals/35/f3/23/35f323bc5b41dc4269001529e3ff1278.gif) no-repeat center;
+    z-index: 99999;
+   margin: auto;
+    border: 1px solid white;
+}
+#payment p{
+   
+    /* border: 1px solid red; */
+    color: rgb(56,211,104);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 70vh;
+
+   
+}
     </style>
 </head>
 <body>
+    <div id="payment">
+        <p>Payment Successful</p>
+    </div>
     <div class="cont">
         <div><img src="https://cdn.dribbble.com/users/1200451/screenshots/8759739/media/38dc1e5f1060c443d927978bef79968c.gif"></div>
         
@@ -87,6 +115,17 @@ button {
     </div>
     <script src="./confetti.js"></script>
     <script>
+          const payment=document.getElementById("payment")
+       
+        //   window.addEventListener(()=>{
+            
+        //   })
+          setTimeout(() => {
+            //    alert("done")
+            payment.style.display ="none";
+           }, 3000);
+
+
          const start = () => {
             setTimeout(function() {
                 confetti.start()

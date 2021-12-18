@@ -122,20 +122,24 @@
     <!-- Arrow drop down -->
 
 
+    <div id="top" >Cultgear Order Summary</div>
     <div id="container">
         <div id="left">
-            <div id="top">Cultgear Order Summary</div>
+           
             <div id="items"></div>
         </div>
 
         <div id="right">
+            <div class="margin_left loc">Choose/Enter Location
+            </div>
             <div>
                <div id="location" class="material-icons">
                     location_on
                   </div>
 
-                <input id="location-btn" type="text"></input>
+                <input id="location-btn" type="text"></input>       
             </div>
+            <p id="error-loc" class="margin_left"></p>
             <hr>
             <div>
                 <span class="price">Total Price</span> <span class="margin_left price" id="total_price">0</span>
