@@ -156,39 +156,6 @@ async function quantD(pr) {
     }
 }
 
-axios.post('/order').then((info) => {
-    console.log(info);
-
-    // require("dotenv").config();
-    let pay_price = document.getElementById("pay_price").innerText
-    console.log(pay_price);
-    var options = {
-        "key": "rzp_test_MTzmvOejm2fa4j", // Enter the Key ID generated from the Dashboard
-        "name": "Cult Fit",
-        "amount": pay_price * 100, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise
-        "currency": "INR",
-        "description": "Transaction",
-        "image": "https://static.cure.fit/assets/images/cult-brand.svg",
-        "order_id": info.data.id, //This is a sample Order ID. Pass the `id` obtained in the response of Step 1
-        "callback_url": "https://eneqd3r9zrjok.x.pipedream.net/",
-        "theme": {
-            "color": "#3399cc"
-        }
-    };
-
-    var rzp1 = new Razorpay(options);
-    document.getElementById('CheckOut-btn').onclick = function (e) {
-        rzp1.open();
-        e.preventDefault();
-    }
-
-})
-
-
-
-
-
-
 //checkout and coupon section 
 function showPrice(t, d, p) {
     // console.log('t,d,p:', t, d, p)
@@ -220,7 +187,7 @@ async function payment(){
         "description": "Proceed to invest",
         "image": "https://is3-ssl.mzstatic.com/image/thumb/Purple125/v4/ee/6b/11/ee6b115c-516e-8aa8-155b-d7059325a22a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
         "order_id": info.id,
-        "callback_url": "http://localhost:2000/razorpay/result",
+        "callback_url": "http://localhost:2345/home",
         "theme": {
             "color": "#3399cc"
         }   
@@ -250,7 +217,11 @@ function Coupon() {
         let new_pay_price = document.getElementById("pay_price").innerText
         new_pay_price = (pay_price - pay_price * 0.3)
         p = new_pay_price.toFixed(2);
+<<<<<<< Updated upstream
         document.getElementById("pay_price").innerText = p;
+=======
+        document.getElementById("pay_price").innerText =p;
+>>>>>>> Stashed changes
         flag = false;
     } else if (flag === false) {
         document.getElementById("error").innerText = "This Coupon is Expired now"

@@ -39,6 +39,12 @@ app.get("/care",(req,res) => {
 app.get("/home",(req,res) => {
     res.render("home");
 })
+
+app.post("/home",(req,res) => {
+    console.log(req.body)
+    res.render("home");
+})
+
 app.get("/desc",(req,res) => {
     res.render("descPage");
 })
