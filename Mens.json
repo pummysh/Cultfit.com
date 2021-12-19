@@ -1,0 +1,244 @@
+[
+    {
+        "id":"1",
+        "name": "Workout Shorts with Inner Tights",
+        "brand": "CULTSPORT",
+        "price":  649,
+        "mainPrice": 1299,
+        "discount": 50,
+        "size":["S","M","L","XL"],
+        "category":"men",
+        "description":"The tonal print workout shorts are specially made to ease your Dance workout routine. It features a double layer with a fitted inside layer that allows you to stretch it out in comfort and style.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ERRGJhUeS7rYuAhsoQArNwtc",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/9QTeKirFEnD9LZpanfrHAF9R",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/afuUUupDVLskj8qaCWhX3iYw",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/h1eieWpdwF9v6mL6Xowg1PiU"]
+        
+},
+{
+    "id":"2",
+    "name": "Supersoft Stretch Yoga Joggers",
+    "brand": "CULTSPORT",
+    "price":  854,
+    "mainPrice": 1899,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Perfect your yoga poses in these supersoft joggers, made with bio washed breathable fabric. Add more comfort to your workout with the clean waistband , adjustable drawcord and utility pockets.Need Motivation? Find a quote inside pocket.",
+    "img":[
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/DhKSTdFmW14ioMZwCmZeG87r",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/3ujTxZx222VgpY9Y3omMWU6e",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/LXtR1N2j6NvEM3GZaK5ZgKHs",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7Md46g7cXg2FxURgEZQG2MUQ"
+    ]
+    
+},
+{
+    "id":"3",
+    "name": "Supersoft Yoga Pants",
+    "brand": "CULTSPORT",
+    "price":  899,
+    "mainPrice": 1999,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Find the ultimate zen mode with your MadeforYoga pants with inside panel for that super stretch.Clean waistband with inside drawstring and zip up front pockets add utility to comfort. Looking for some motivation? Your search ends here.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/F94GAk78vTJHPExCRwtJeMgJ",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/DginewzEU5nGqpjEiUxB1JY3",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/wHmFe9YxStMsSaSoB31xJUNw",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/5DdLE4hrRCfYrTc5PspX8isL"]
+    
+},
+{
+    "id":"4",
+    "name": "Stretch Yoga Shorts",
+    "brand": "CULTSPORT",
+    "price":  764,
+    "mainPrice": 1699,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Stretch, bend, and sweat it out in a pair of MadeforYoga Shorts. Utility pockets and body ergonomic features will help you go deeper in your pose without a worry. They are so comfortable you may find yourself wearing them outside of your workouts too.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/sUEAciv8DL4qFun1sGTgg81g",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/YVp6JqfFFcJim3t1UuQFWtZ9",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6oiuAv4mUd6zKpAyCHHCkDu1",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/N5121cjhNsPNZx3d43HQJsz3"]
+    
+},
+{
+    "id":"5",
+    "name": "Graphic Print Shorts",
+    "brand": "CULTSPORT",
+    "price":  674,
+    "mainPrice": 1499,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Refresh your workout wardrobe with these comfort shorts,made with supersoft and breathable fabric to keep you at ease whether you are stepping out for jog or a leisure stroll.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/D8KLLvng8oqjSqRBpF61sdve",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/my2isqF1QnnMsjcKm1KzHFvP",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/HDK9Limqo43KXyBqqcRQBuCi",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ihtKW73dgfRqyAHfkmJRpNfK"]
+    
+},
+{
+    "id":"6",
+    "name": "Supersoft Solid Trackpants",
+    "brand": "CULTSPORT",
+    "price":  899,
+    "mainPrice": 1999,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"The perfect pair of performance trackpants that are designed to ensure all day comfort. Made with supersoft breathable fabric and a clean waistband with inside drawstring that let's you move with extra ease.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/p6dBUuDctuSfzneMfo7m4pak",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/1aSui8LVqQRSbnNMDz3tjZ3p",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Mp25gMi86XV8vQrUSTGVHDTP",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ozD1zkkTsEe5CKd1kwS8qmum"]
+    
+},
+{
+    "id":"7",
+    "name": "Supersoft Solid Trackpants",
+    "brand": "CULTSPORT",
+    "price":  899,
+    "mainPrice": 1999,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"The perfect pair of performance trackpants that are designed to ensure all day comfort. Made with supersoft breathable fabric and a clean waistband with inside drawstring that let's you move with extra ease.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/oqefmGyQ4XADUNvHvuE6xsAc",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/boieG2cpBxab3EcHsoVcapJv",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/kPfM8QSQo4ZVGPgD46KmjtQN",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/3guDcGfYdkkr5DYDEKGCWx9v"]
+    
+},
+{
+    "id":"8",
+    "name": "Supersoft Solid Trackpants",
+    "brand": "CULTSPORT",
+    "price":  899,
+    "mainPrice": 1999,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"The perfect pair of performance trackpants that are designed to ensure all day comfort. Made with supersoft breathable fabric and a clean waistband with inside drawstring that let's you move with extra ease.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/tRRAtQdBtjQerGgzWUsDN6EJ",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/djrqqMghG463zw96JhfpookV",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6nP9LXu5LiSYFjBP3Jg1CKi5",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7TTiaJ9vEw9KHMVi41Xem3Af"]
+    
+},
+{
+    "id":"9",
+    "name": "Supersoft Solid Trackpants",
+    "brand": "CULTSPORT",
+    "price":  944,
+    "mainPrice": 2099,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"The perfect pair of performance trackpants that are designed to ensure all day comfort. Made with supersoft breathable fabric and a clean waistband with inside drawstring that let's you move with extra ease.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/KyuVyGMEte24EuUvzipXyPnc",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/48kUfFEjsxUx1SEA4vsv5A5k",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/xb8M2ykZj5uQsbmAXBJGqKNv",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/FRgYpgtFeB71b4M985m3ZM2M"]
+    
+},
+{
+    "id":"10",
+    "name": "Supersoft Solid Trackpants",
+    "brand": "CULTSPORT",
+    "price":  944,
+    "mainPrice": 2099,
+    "discount": 55,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"The perfect pair of performance trackpants that are designed to ensure all day comfort. Made with supersoft breathable fabric and a clean waistband with inside drawstring that let's you move with extra ease.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/kHcQ2KQgcGuLutNxEt8fDjpo",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7hRhCf4N7k1ckZwDAipEpBU6",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/HrxvGsWGYicb6drBMEuf3kXh",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/k5YWmzoXakGzZPkibay8neDh"]
+    
+},
+{
+    "id":"11",
+    "name": "Graphic Print Workout Tshirt",
+    "brand": "CULTSPORT",
+    "price":  749,
+    "mainPrice": 1499,
+    "discount": 50,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Amp your fitness wardrobe with this Graphic Print crew neck workout t-shirt. With fabric that lets you breathe without restriction, this t-shirt keeps up with your active life!",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/bxUetfAMWWG3NiX3KErbez2c",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7AvGuHBoR82V3kNpeHMNbGk5",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/wfxML5kBwU7uy9EXExCLTAgf",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Wir9gUyFoCRArtCe9oDMD5zr"]
+    
+},
+{
+    "id":"12",
+    "name": "Graphic Print Workout Tshirt",
+    "brand": "CULTSPORT",
+    "price":  749,
+    "mainPrice": 1499,
+    "discount": 50,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"The perfect pair of performance trackpants that are designed to ensure all day comfort. Made with supersoft breathable fabric and a clean waistband with inside drawstring that let's you move with extra ease.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/pTMhuQFpK22g2dNhxR7PrhKp",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/3MAoMuyf15DGuwq7JaRTkShU",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/415tgHr3WMtUrNs9wMdcFA2P",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/qp8QR4kQyufzoR9cpXr4b2dM"]
+    
+},
+{
+    "id":"13",
+    "name": "Branding Logo Graphic Tshirt",
+    "brand": "CULTSPORT",
+    "price":  699,
+    "mainPrice": 1399,
+    "discount": 50,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Make Your Move with the Signature Branding Logo Play Tshirt. Add the extra groovy vibe your Dance workout wardrobe.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/kCA2rugUPWKLcJFepU65r3Ty",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/v41NZQQgzpge4kuWD9w9xAye",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/byd3NHmQ2XRxh8w8TkkibjX2",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/8kJBZdrpYXGZQAHeG8x71inH"]
+    
+},
+{
+    "id":"14",
+    "name": "Graphic Print Workout Shorts",
+    "brand": "CULTSPORT",
+    "price":  649,
+    "mainPrice": 1299,
+    "discount": 50,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Up your dance vibe with these uber stylish performace shorts with side panel print and breathable features. With adjustable drawstring and pockets that add more functionality your workout wear.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/WMqYYNgR1HQxp8NQm61yStcd",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6twPJiVkBkQpVqjxZgsLBNy3",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/1kyaEbXmzr4Sa8qNGBGD1L2c",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6zBrbYTqAnyXwCp4o6LvYD9H"]
+    
+},
+{
+    "id":"15",
+    "name": "Logo Graphic Print Tshirt",
+    "brand": "CULTSPORT",
+    "price":  549,
+    "mainPrice": 1099,
+    "discount": 50,
+    "size":["S","M","L","XL"],
+    "category":"men",
+    "description":"Make Your Move with the Signature Branding Logo Play Tshirt. Add the extra groovy vibe your Dance workout wardrobe.",
+    "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/SgTQSqJqK3HAPfAEGpnB1U1k",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/QwZp6abF8rE277TM7SkSCPkm",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/K8G66Mv3md299AJhVHKmHmr9",
+        "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/qxJxo62jw7w4yYhhJz68wE4N"]
+    
+}
+]
