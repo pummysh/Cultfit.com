@@ -76,10 +76,10 @@ a{
     vertical-align: sub;
 }
 /* signinpage style */
-
+/* 
 #login{
     top: -800px;
-}
+} */
 
 .login{
     display: flex;
@@ -88,7 +88,7 @@ a{
     width: 400px;
     height:auto;
     border-radius: 10px;
-    position:absolute;
+    /* position:absolute; */
     transition: 0.3s;
     box-shadow: rgb(0 0 0 / 15%) 0px 3px 6px 0px;
     background-color: rgb(255, 255, 255);

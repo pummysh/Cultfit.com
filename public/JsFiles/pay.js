@@ -134,8 +134,8 @@ async function quantD(pr) {
 
         });
 
-        getCartItems()
-        // window.location = "/payment";
+        // getCartItems()
+        window.location = "/payment";
 
 
     }
