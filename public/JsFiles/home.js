@@ -370,9 +370,33 @@ function cart_null() {
 }
 
 function google(){
-    
+    let a= document.getElementById("user-logout");
+
+    console.log(a);
+    a.textContent="mghjgjf";
 }
 
+function google(){
+    let token =document.cookie;
+    console.log(token);
+
+
+}
+    
+
+
+let token =document.cookie;
+console.log(token);
+
+if(token!=""){
+    let a = document.getElementById("user-logout");
+    a.href="";
+   
+}
+
+function google(){
+    document.cookie.jwt="a"
+}
 
 // function v() {
 //     let logOut_btn = document.getElementById("continue");
