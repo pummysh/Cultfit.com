@@ -130,9 +130,9 @@ passport.deserializeUser(function( {user,token},done) {
     done(null,{user,token});
 })
 
-app.get('/', function(req, res) {
-    res.render('home');
-  });
+// app.get('/', function(req, res) {
+//     res.render('home');
+//   });
 
 app.get("/auth/google/failure",function (req,res){
     return res.send("Something went wrong")
