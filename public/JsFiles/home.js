@@ -369,6 +369,11 @@ function cart_null() {
     btn.onclick = () => { cart() };
 }
 
+function google(){
+    
+}
+
+
 // function v() {
 //     let logOut_btn = document.getElementById("continue");
 

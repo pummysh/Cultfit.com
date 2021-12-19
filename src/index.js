@@ -1,6 +1,5 @@
 const express=require('express');
 const cookieParser = require('cookie-parser')
-const mongoose = require('mongoose');
 let app=express();
 
 app.use(cookieParser());
@@ -90,9 +89,9 @@ app.get("/products/:category",(req,res) => {
 app.get("/products",(req,res) => {
     res.render("products");
 })
-// app.get("/products",(req,res) => {
-//     res.render("products");
-// })
+app.get("/login",(req,res) => {
+    res.render("login");
+})
 
 
 app.post("/order",(req,res) => {
@@ -138,19 +137,24 @@ app.get('/auth/google',
 ));
 
 
-// app.get('/getcookie', (req, res) => {
-//     //show the saved cookies
-//     console.log(req.cookies)
-//     res.send(req.cookies);
+app.get('/getcookie', (req, res) => {
+    //show the saved cookies
+    const token = req.cookies.Ctn;
+    if (!token) {
+        return res.redirect('/home');
+      }
+  
+    console.log(req.cookies)
+    res.send(req.cookies);
 
-
-
-// });
+});
 
 app.get('/data', async(req, res) => {
     let d=user.find({}).lean().exec();
     return res.send(d);
 })
+
+
 
 app.get( '/auth/google/callback',
     passport.authenticate( 'google', {
@@ -168,10 +172,10 @@ app.get( '/auth/google/callback',
     // console.log(dt);
     // localStorage.setItem("userData", JSON.stringify(dt));
 
-    // app.get('/setcookie', (request, response) => {
-    //     response.cookie(`Cookie token name`,`encrypted cookie string Value`);
-    //     response.send({user:req.user.user,token:req.user.token});
-    // });
+    app.get('/setcookie', (request, response) => {
+        response.cookie(`Ctn`,`encrypted cookie string Value`);
+        response.send({user:req.user.user,token:req.user.token});
+    });
     
     let a= req.user;
     console.log("a",a);
@@ -194,8 +198,5 @@ return res.redirect('/home')
 });
 
 // google auth
-
-
-
 
 module.exports =app;
