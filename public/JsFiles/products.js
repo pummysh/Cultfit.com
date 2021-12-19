@@ -1,13 +1,25 @@
 
 // window.addEventListener("load",()=>{
 
+    let category = JSON.parse(localStorage.getItem("category"));
 
+    console.log(category);
 
-async function showProductsForWomens() {
+    let a="";
+
+    if(category[0]==="womens"){
+        a="womens";
+    }else if(category[0]==="men"){
+        a="men";
+    }else{
+        a="equipment";
+    }
+
+async function showProductsForWomens(a) {
 
   const data="womens"
     try {
-        let res = await fetch('http://localhost:2345/products/womens');
+        let res = await fetch(`http://localhost:2345/products/${a}`);
         // const data=
         let data = await res.json();
         showproduct(data)
@@ -18,7 +30,7 @@ async function showProductsForWomens() {
 
 }
 
-showProductsForWomens()
+showProductsForWomens(a)
 
 
 

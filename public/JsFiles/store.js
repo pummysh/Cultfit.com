@@ -32,18 +32,53 @@ startslideshow()
 
 // products page
 function mens_store(){
-    window.location.href = "/mens-store"
+     if (localStorage.getItem("category") === null) {
+        localStorage.setItem("category", JSON.stringify([]))
+    }
+
+    let dt = JSON.parse(localStorage.getItem("category"));
+    dt = [];
+    dt.push("men");
+    console.log(dt);
+    localStorage.setItem("category", JSON.stringify(dt));
+
+    window.location.href = "/products"
+
 }
 function womens(){
+
+
+    if (localStorage.getItem("category") === null) {
+        localStorage.setItem("category", JSON.stringify([]))
+    }
+
+    let dt = JSON.parse(localStorage.getItem("category"));
+    dt = [];
+    dt.push("womens");
+    console.log(dt);
+    localStorage.setItem("category", JSON.stringify(dt));
+
     window.location.href = "/products"
 }
 function equipment(){
+
+
+    if (localStorage.getItem("category") === null) {
+        localStorage.setItem("category", JSON.stringify([]))
+    }
+
+    let dt = JSON.parse(localStorage.getItem("category"));
+    dt = [];
+    dt.push("equipment");
+    console.log(dt);
+    localStorage.setItem("category", JSON.stringify(dt));
+
     window.location.href = "/products"
 }
 
-function mensPage(){
-    window.location.href = "./mens-store"
-}
+// function mensPage(){
+//     window.location.href = "./mens-store"
+// }
 
 let a = JSON.parse(localStorage.getItem("currentcity"));
 let location_div =document.getElementById("location");
