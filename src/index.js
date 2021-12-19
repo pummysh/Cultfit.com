@@ -49,7 +49,7 @@ app.post("/successful",(req,res) => {
     res.render("successful");
 })
 
-app.get("/sucessful",(req,res) => {
+app.get("/successful",(req,res) => {
     res.render("successful");
 })
 
