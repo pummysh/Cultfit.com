@@ -45,6 +45,8 @@ function mens_store(){
     window.location.href = "/products"
 
 }
+
+//women product
 function womens(){
 
 
@@ -60,6 +62,7 @@ function womens(){
 
     window.location.href = "/products"
 }
+//equipment products
 function equipment(){
 
 
@@ -70,6 +73,43 @@ function equipment(){
     let dt = JSON.parse(localStorage.getItem("category"));
     dt = [];
     dt.push("equipment");
+    console.log(dt);
+    localStorage.setItem("category", JSON.stringify(dt));
+
+    window.location.href = "/products"
+}
+
+//  vitamins products
+
+function vitamins(){
+
+
+    if (localStorage.getItem("category") === null) {
+        localStorage.setItem("category", JSON.stringify([]))
+    }
+
+    let dt = JSON.parse(localStorage.getItem("category"));
+    dt = [];
+    dt.push("vitamins");
+    console.log(dt);
+    localStorage.setItem("category", JSON.stringify(dt));
+
+    window.location.href = "/products"
+}
+
+
+//accessories products
+
+function accessories(){
+
+
+    if (localStorage.getItem("category") === null) {
+        localStorage.setItem("category", JSON.stringify([]))
+    }
+
+    let dt = JSON.parse(localStorage.getItem("category"));
+    dt = [];
+    dt.push("accessories");
     console.log(dt);
     localStorage.setItem("category", JSON.stringify(dt));
 

@@ -107,7 +107,7 @@ function dlt() {
     localStorage.setItem("checklogin", JSON.stringify([]));
     let e = [];
     localStorage.setItem("checklogin", JSON.stringify(e));
-    window.location.href = "home.html"
+    window.location.href = "/home"
 }
 
 //main 

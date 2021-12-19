@@ -11,12 +11,17 @@
         a="womens";
     }else if(category[0]==="men"){
         a="men";
-    }else{
+    } else if(category[0]==="equipment"){
         a="equipment";
+    } else if(category[0]==="vitamins"){
+        a="vitamins";
+    }else{
+        a="accessories"
     }
 
 async function showProductsForWomens(a) {
-
+  const category=document.getElementById("category");
+  category.innerText=a
   const data="womens"
     try {
         let res = await fetch(`http://localhost:2345/products/${a}`);
