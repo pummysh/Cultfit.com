@@ -1,0 +1,272 @@
+[
+    {
+            "id":"1",
+            "name": "Unisex Super Absorbent Hand Towel",
+            "brand": "CULTSPORT",
+            "price": 299,
+            "mainPrice": 499,
+            "discount": 40,
+            "size":["ALL"],
+            "category":"accessories",
+            "description":"Your cool off gear should be as stylish as your workout gear and that's precisely why we made this trendy and functional towel! Made with super absorbent material featuring quickdry properties, this compact & light weight towel makes functionality look enviable and fashionable!",
+            "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/2Z8uwWdVW3xK8rJRbr9mSSDS",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/9DyzZQUeaW8SkFqvJFv5FuXh",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/v8PxMRXXFLXLSpZFBSfmpgQp",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/hFL2rWi2BNm6PjeACU3c4pqd",
+                "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/SHdtAYHLM1q9DerDmZmUAM86"
+            ]
+            
+    },
+    {
+        "id":"2",
+        "name": "Signature Pack of 3 socks",
+        "brand": "CULTSPORT",
+        "price": 659,
+        "mainPrice": 1099,
+        "discount": 40,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Packed with comfort in a pack of 3 socks which come with low volume and minimalist construction for a next-to-skin feel. These socks are perfect for running or endurance training.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/jQhP84MmCqMCKjJrmMWkunsd",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/2V9hx7JJaAwseJuA8HJwbR1b",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/bnZYky49XGjKXXxcTf7jZGer",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/UTYAcF8FwB5E97hP31m8K9Ai",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/eyF5UbQJz3K8SGa9C1tekLqc"
+        ]
+        
+    },
+    {
+        "id":"3",
+        "name": "Signature Pack of 3 socks",
+        "brand": "CULTSPORT",
+        "price": 599,
+        "mainPrice": 999,
+        "discount": 40,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Packed with comfort in a pack of 3 socks which come with low volume and minimalist construction for a next-to-skin feel. These socks are perfect for running or endurance training.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/DiExqWygExVyagHxxjjMwzQe",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/G8CNBJoapAR3gS9VVnXkKEcf",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/vEFt6JroqNLGugpSCPG6X2Jw",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/82xoV7d7BcXFStjay6qXsNBg",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/cTHSBUijo61hHqnxKQGAoC6R"
+        ]
+        
+    },
+    {
+        "id":"4",
+        "name": "Signature Pack of 3 socks",
+        "brand": "CULTSPORT",
+        "price": 659,
+        "mainPrice": 1099,
+        "discount": 40,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Packed with comfort in a pack of 3 socks which come with low volume and minimalist construction for a next-to-skin feel. These socks are perfect for running or endurance training.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/nvFgm5PvBMUN9o9bbk1uSTXx",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/NLkyRECeYy8EasSyV8yD34ob",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/4NV7r5xhqMBfG5bVXKiJRmrH",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/uAwX8tp1ipikg1DiEqyL6gbs",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/koWzqxWfW8fjGqi5xUYB71rL"
+        ]
+        
+    },
+    {
+        "id":"5",
+        "name": "Cult.fit Boxing Gloves",
+        "brand": "CULTSPORT",
+        "price": 2099,
+        "mainPrice": 2999,
+        "discount": 30,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Be it in-ring combat to sparring to bag work, the right boxing gloves are a must for all kinds of boxing workouts! Get your A-game on with these premium boxing gloves from cult.fit that have been ergonomically designed to provide just the right kind of fit, cushioning, and support that your hands need during an intense yet fun training session. Ready to knockout?",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/pdCp1gDSztYk5tS68dDt2bmM",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/6XhW3ZnyCfEF3E3DDjZ1FaU5",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Nt8wRoCZct7chJpYeJwV7gEc",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/EjmN96mqZGUmNoBUm37dMswH",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/TSMgMKjDPTFicdW7SwAKNxuL"
+        ]
+        
+    },
+    {
+        "id":"6",
+        "name": "Vital Prism Orange Backpack",
+        "brand": "CULTSPORT",
+        "price": 899,
+        "mainPrice": 2999,
+        "discount": 70,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Simple and functional. This backpack is a must-have.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/xVNbpiSeNTmok4UaxufzTuF1",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/rrkYxNrpywi6qUyAQWdYXBrD",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7KHdhd7wTqDnRQ8jkqBye7yX",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/kWPYTSvct1Z3VE3oZRhExgk4",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/L8mQkp1f7BctcXqevMpoyxuU"
+        ]
+        
+    },
+    {
+        "id":"7",
+        "name": "Signature Ergo Orange Full Length Unisex Socks",
+        "brand": "CULTSPORT",
+        "price": 199,
+        "mainPrice": 399,
+        "discount": 50,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"These Cultsport socks with low volume and a very minimal construction provides a next skin feel",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ueQFNUk7jZ636njFibWGVRvg",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/rv3WyS1ZSD425q8ZToMzUEbx",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/R66ZX3Kp1JU5kmLSvEHEqTzp",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/qTdPN9iCMs4VPLvdtETAC6Rr",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/1rZBaexT7Z2r7WzxCoPtrqHf"
+        ]
+        
+    },
+    {
+        "id":"8",
+        "name": "Signature Ergo Black Full Length Unisex Socks",
+        "brand": "CULTSPORT",
+        "price": 225,
+        "mainPrice": 450,
+        "discount": 50,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Ace those asanas with this signature Teal Yoga Mat. Made out of durable TPE, this one provides ample padding along with no-slip grip so you can master that cobra or downward dog and turn your practice up by a notch.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/7Jcwpuidq8JbjwvSZmvgSA5k",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/FXs8bssGLBCEJ2DGu45RrDZ3",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/399iYkBL2xQ25vP7Z32VaZDH",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Y3J2rtDXfk2EMtgjD684b69g",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/jUNmv8qfZ1We2o3pS4tMvx8K"
+        ]
+        
+    },
+    {
+        "id":"9",
+        "name": "Signature Ergo Blue Full Length Unisex Socks",
+        "brand": "CULTSPORT",
+        "price": 225,
+        "mainPrice": 450,
+        "discount": 50,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Ace those asanas with this signature Teal Yoga Mat. Made out of durable TPE, this one provides ample padding along with no-slip grip so you can master that cobra or downward dog and turn your practice up by a notch.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/XHQvykRoMngza74fGukHW7xY",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/Hunstb73LNaBZyT65rWCiJ7t",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ofDReteVjFQR3qUibbgA4jYD",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/1qy8HBoQqoL9fNHDAQm6bVqf",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/eqzHHsbCvcUMMfGLC2UTqN8v"
+        ]
+        
+    },
+    {
+        "id":"10",
+        "name": "Breathfit Pack of 3 Mask",
+        "brand": "CULTSPORT",
+        "price":  419,
+        "mainPrice": 599,
+        "discount": 30,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"BREATHFIT (pack of 3) masks gives protection against pollution, dust and bacteria , with adjustable tie-up to fit different face sizes and shape comfortably. Ideal for light to medium intensity daily.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/wJghZaJjhkzu3CVcNyfsQmTP",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/gZJzUJoKS7QYv9CBXUXPvDGa",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/GE1hNEfLYzk8xmEMdZNXg94H",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ouSNN4CkRLuB9G3xDPTH3iDB",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/SHBjuGLKNqvLdiiGPGFKjvjh"
+        ]
+        
+    },
+    {
+        "id":"11",
+        "name": "Breathfit Pack of 3 Mask",
+        "brand": "CULTSPORT",
+        "price": 419,
+        "mainPrice": 599,
+        "discount": 30,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"BREATHFIT (pack of 3) masks gives protection against pollution, dust and bacteria , with adjustable tie-up to fit different face sizes and shape comfortably. Ideal for light to medium intensity daily.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/ZHQJXq28ZndGiTYJvQx3rUXx",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/8NLd8xTyzzga62Dn9juvRqyb",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/vYo28zG8Qkf1anWfz2LgqHXc",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/g3Rzw3rSaSqD9nrzYc1ZVk8L",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/eD3kV5gvz8M5YQryX1e9XxMH"
+        ]
+        
+    },
+    {
+        "id":"12",
+        "name": "Breathfit Pack of 3 Mask",
+        "brand": "CULTSPORT",
+        "price":  419,
+        "mainPrice": 599,
+        "discount": 30,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"BREATHFIT (pack of 3) masks gives protection against pollution, dust and bacteria , with adjustable tie-up to fit different face sizes and shape comfortably. Ideal for light to medium intensity daily.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/muz4nkVAUoEkoKw2EtSUCHP9",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/JSRFCWmSm6GLL1u3LCWTCuJA",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/oZxD8czXWvFK6Rq9CWSugGJQ",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/kD6rTvkNR2U9BYYP6tAEgLhS",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/uEnfuKCZYnXB7bfuzW71viDc"
+        ]
+        
+    },
+    {
+        "id":"13",
+        "name": "BREATHEFIT Kids Mask (Pack of 3)",
+        "brand": "CULTSPORT",
+        "price": 419,
+        "mainPrice": 599,
+        "discount": 30,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"BREATHEFIT (pack of 3) kids mask is for age 4-12, Breathefit kids mask gives protection against pollution, dust and bacteria , with adjustable tie-up to fit different face sizes and shape comfortably. It comes with moisture wicking property for better comfort and breathability. Designed with 7 layer triple protection system. PFE>85% at 0.3 microns. Size : height at centre front - 11 cm, height at back - 6 cm : Width - 10 cm from center front to side.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/eRXCbvLZeuusFzwkFFaCRMHf",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/nx1H9THJuY3P89hPDBCnYFPZ",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/sUN8tMJCA8Ta8HRj5gAZmJXr",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/B7PkD6VEz72mDZeKkij6VuAs",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/MpeqYiRruZgMKjb2wbUaFinZ"
+        ]
+        
+    },
+    {
+        "id":"14",
+        "name": "BREATHEFIT Signature Protective Mask - Pack of 3",
+        "brand": "CULTSPORT",
+        "price": 419,
+        "mainPrice":  599,
+        "discount": 30,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"BREATHFIT (pack of 3) masks gives protection against pollution, dust and bacteria , with adjustable tie-up to fit different face sizes and shape comfortably. It comes in three different designs. Ideal for light to medium intensity daily. BFE and PFE > 85% at 0.3 microns. Size : height at centre front - 14.25 cm, height at back - 5.5cm : Width - 12 cm from center front to side.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/17djbK1Z87CTV1xrJwDH7xEq",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/TyfgTXWezwb6Hi2Jh19NSA5p",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/XwaVfcGbGgifmBsoc3jpeJLu",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/tWGM5QQPTFaKPPpRfa3AJB4s",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/fA462dxbVJ3MSDJ9xUp1me6J"
+        ]
+        
+    },
+    {
+        "id":"15",
+        "name": "Signature Pack of 3 socks",
+        "brand": "CULTSPORT",
+        "price":  659,
+        "mainPrice":  1099,
+        "discount": 40,
+        "size":["ALL"],
+        "category":"accessories",
+        "description":"Packed with comfort in a pack of 3 socks which come with low volume and minimalist construction for a next-to-skin feel. These socks are perfect for running or endurance training.",
+        "img":["https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/nvFgm5PvBMUN9o9bbk1uSTXx",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/NLkyRECeYy8EasSyV8yD34ob",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/4NV7r5xhqMBfG5bVXKiJRmrH",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/uAwX8tp1ipikg1DiEqyL6gbs",
+            "https://cdn-images.cure.fit/www-curefit-com/image/upload/fl_progressive,f_auto,q_auto:eco,w_500,ar_4:5,c_fill/dpr_2/cultgear-content/koWzqxWfW8fjGqi5xUYB71rL"
+        ]
+        
+    }
+    ]
