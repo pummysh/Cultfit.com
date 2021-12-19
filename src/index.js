@@ -41,7 +41,7 @@ app.get("/payment",(req,res) => {
 app.get("/care",(req,res) => {
     res.render("care");
 })
-app.get("/",(req,res) => {
+app.get("/home",(req,res) => {
     res.render("home");
 })
 
