@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="JsFiles/sucessful.js" async></script>
     <title>Payment | Successful</title>
+    <script rel="preload" src="JsFiles/confetti.js" async></script>
+    <!-- <script src="./confetti.js"></script> -->
     <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png"
     data-rh="true">
     <style>
@@ -113,7 +115,7 @@ button {
              </a>
         </div>
     </div>
-    <script src="./confetti.js"></script>
+    
     <script>
           const payment=document.getElementById("payment")
        
@@ -137,7 +139,7 @@ button {
             const stop = () => {
                 setTimeout(function() {
                     confetti.stop()
-                }, 5000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
+                }, 10000); // 5000 is time that after 5 second stop the confetti ( 5000 = 5 sec)
             };
             // after this here we are calling both the function so it works
             start();
