@@ -34,7 +34,7 @@ app.use("/mycarts",mycartController);
 app.use("/products",productController);
 
 
-app.get("/payment",(req,res) => {
+app.get("/payment",AuthCheck,(req,res) => {
     res.render("pay");
 })
 
@@ -74,7 +74,7 @@ app.get("/mindfulness",(req,res) => {
 app.get("/onlinept",(req,res) => {
     res.render("onlinept");
 })
-app.get("/productdisplay",(req,res) => {
+app.get("/productdisplay",AuthCheck,(req,res) => {
     res.render("product_display");
 })
 app.get("/store",(req,res) => {
@@ -161,19 +161,19 @@ return res.redirect("/home")
 
 });
 
-// function AuthCheck(req, res,next) {
-//     const token = req.cookies.jwt
-//     console.log("token ",token)
-// // next
-// if(!token){
-//     res.redirect("/login")
+function AuthCheck(req, res,next) {
+    const token = req.cookies.jwt
+    // console.log("token ",token)
+// next
+if(!token){
+    res.redirect("/login")
    
-// }else{
-//     res.redirect("/productdisplay")
+}else{
+    next()
    
-// }
-// next()
-// }
+}
+
+}
 // google auth
 
 module.exports =app;
