@@ -17,7 +17,7 @@ passport.use(
     },
     async function (request, accessToken, refreshToken, profile, done) {
       // console.log("accessToken, refreshToken, profile",accessToken, refreshToken, profile);
-      console.log(profile);//
+      // console.log(profile);//
       // console.log(profile);
       const email = profile?._json?.email;
       let user;
@@ -27,7 +27,7 @@ passport.use(
           user = await User.create({ email: email, password: uuidv4() });
         }
         const token = newToken(user);
-        return done(null, { user, token });
+        return done(null, { user, token,profile });
       } catch (e) {
         console.log("e", e);
       }
