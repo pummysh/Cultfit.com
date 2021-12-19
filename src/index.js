@@ -1,5 +1,6 @@
 const express=require('express');
 const cookieParser = require('cookie-parser')
+
 let app=express();
 
 app.use(cookieParser());
@@ -176,4 +177,9 @@ return res.redirect("/home")
 // }
 // google auth
 
+// app.listen(port, async function(){
+//     await connect();
+//     console.log(`listening on port ${port}`)
+// })
 module.exports =app;
+// module.exports=port;
