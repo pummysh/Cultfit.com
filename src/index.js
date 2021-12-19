@@ -74,7 +74,7 @@ app.get("/mindfulness",(req,res) => {
 app.get("/onlinept",(req,res) => {
     res.render("onlinept");
 })
-app.get("/productdisplay",AuthCheck,(req,res) => {
+app.get("/productdisplay",(req,res) => {
     res.render("product_display");
 })
 app.get("/store",(req,res) => {
@@ -83,7 +83,7 @@ app.get("/store",(req,res) => {
 app.get("/therapy",(req,res) => {
     res.render("therapyPage");
 })
-app.get("/products/:category",(req,res) => {
+app.get("/products/:category",AuthCheck,(req,res) => {
     res.render("products");
 })
 app.get("/products",(req,res) => {
@@ -163,7 +163,7 @@ if(!token){
     res.redirect("/login")
    
 }else{
-    res.redirect("/payment")
+    res.redirect("/productdisplay")
    
 }
 next()
