@@ -20,16 +20,18 @@
   "homepage": "https://github.com/pummysh/Cultfit.com#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.14",
     "nodemon": "^2.0.15",
-    "tailwindcss": "^2.2.19",
     "passport": "^0.5.2",
     "passport-google-oauth2": "^0.2.0",
     "razorpay": "^2.8.0",
+    "tailwindcss": "^2.2.19",
     "uuid": "^8.3.2"
   }
 }

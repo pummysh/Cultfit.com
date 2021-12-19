@@ -389,3 +389,21 @@ function cart_null() {
 
 
 // });   //important
+
+// async function googleData() {
+
+   
+//       try {
+//           let res = await fetch('http://localhost:2345/setcookie');
+//           let data = await res.json();
+//          console.log(data);
+  
+//       } catch (e) {
+//           console.log('e:', e)
+//       }
+  
+//   }
+  
+//   googleData()
+  
+  

@@ -1,5 +1,9 @@
 const express=require('express');
+const cookieParser = require('cookie-parser')
+const mongoose = require('mongoose');
 let app=express();
+
+app.use(cookieParser());
 
 
 const Razorpay=require('razorpay');
@@ -24,6 +28,8 @@ app.use(express.static("public"))
 
 const mycartController =require('./controllers/Mycart.controller');
 const productController = require('./controllers/products.controller');
+
+const user= require('./models/user.model');
 
 app.use("/mycarts",mycartController);
 app.use("/products",productController);
@@ -125,18 +131,65 @@ app.get('/auth/google',
       [ 'email', 'profile' ] }
 ));
 
+
+// app.get('/getcookie', (req, res) => {
+//     //show the saved cookies
+//     console.log(req.cookies)
+//     res.send(req.cookies);
+
+
+
+// });
+
+app.get('/data', async(req, res) => {
+    let d=user.find({}).lean().exec();
+    return res.send(d);
+})
+
 app.get( '/auth/google/callback',
     passport.authenticate( 'google', {
-        failureRedirect: '/auth/google/failure'
+    failureRedirect: '/auth/google/failure'
 }),function (req,res) {
+
     
-console.log("user 11",req.profile);
+    // if (localStorage.getItem("userData") === null) {
+    //     localStorage.setItem("userData", JSON.stringify([]))
+    // }
+
+    // let dt = JSON.parse(localStorage.getItem("userData"));
+    // dt = [];
+    // dt.push(req.profile);
+    // console.log(dt);
+    // localStorage.setItem("userData", JSON.stringify(dt));
+
+    // app.get('/setcookie', (request, response) => {
+    //     response.cookie(`Cookie token name`,`encrypted cookie string Value`);
+    //     response.send({user:req.user.user,token:req.user.token});
+    // });
+    
+    let a= req.user;
+    console.log("a",a);
+    app.post('/data',async(req,res) => {
+        let d=await user.create(
+            {
+               
+                email: a.user.email,
+                password: a.user.password,
+                img: a.user.picture
+            }
+        );
+        return res.send({d});
+    })
+    
+console.log("user 11",req.user);
 // console.log("picture", req.profile._json.picture);
-return res.status(200).send({user:req.user.user,token:req.user.token})
+return res.redirect('/home')
     // return res.send("hey success")
 });
 
 // google auth
+
+
 
 
 module.exports =app;
