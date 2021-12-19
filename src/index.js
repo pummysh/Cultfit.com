@@ -41,7 +41,7 @@ app.get("/payment",(req,res) => {
 app.get("/care",(req,res) => {
     res.render("care");
 })
-app.get("/home",(req,res) => {
+app.get("/",(req,res) => {
     res.render("home");
 })
 
@@ -93,6 +93,12 @@ app.get("/login",(req,res) => {
     res.render("login");
 })
 
+
+app.get("/logout",(req,res) => {
+    res.clearCookie("jwt");
+
+    res.render("login");
+})
 
 app.post("/order",(req,res) => {
     

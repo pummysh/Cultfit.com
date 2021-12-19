@@ -390,12 +390,8 @@ console.log(token);
 
 if(token!=""){
     let a = document.getElementById("user-logout");
-    a.href="";
+    a.href="/logout";
    
-}
-
-function google(){
-    document.cookie.jwt="a"
 }
 
 // function v() {
