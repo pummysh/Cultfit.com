@@ -83,7 +83,7 @@ app.get("/store",(req,res) => {
 app.get("/therapy",(req,res) => {
     res.render("therapyPage");
 })
-app.get("/products/:category",AuthCheck,(req,res) => {
+app.get("/products/:category",(req,res) => {
     res.render("products");
 })
 app.get("/products",(req,res) => {
@@ -155,19 +155,19 @@ return res.redirect("/home")
 
 });
 
-function AuthCheck(req, res,next) {
-    const token = req.cookies.jwt
-    console.log("token ",token)
-// next
-if(!token){
-    res.redirect("/login")
+// function AuthCheck(req, res,next) {
+//     const token = req.cookies.jwt
+//     console.log("token ",token)
+// // next
+// if(!token){
+//     res.redirect("/login")
    
-}else{
-    res.redirect("/productdisplay")
+// }else{
+//     res.redirect("/productdisplay")
    
-}
-next()
-}
+// }
+// next()
+// }
 // google auth
 
 module.exports =app;

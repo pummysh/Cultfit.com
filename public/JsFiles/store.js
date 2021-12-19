@@ -214,6 +214,14 @@ yes.forEach((el) => {
     })
 })
 
+
+let token =document.cookie;
+console.log(token);
+
+if(token===""){
+    window.location.href="/login"
+}
+
 // FAQs
 
 
