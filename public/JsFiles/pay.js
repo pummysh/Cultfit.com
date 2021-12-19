@@ -133,9 +133,10 @@ async function quantD(pr) {
             },
 
         });
-        window.location = "/payment";
 
-        // showProduct(data)
+        getCartItems()
+        // window.location = "/payment";
+
 
     }
 

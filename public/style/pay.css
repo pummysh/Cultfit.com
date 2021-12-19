@@ -53,7 +53,7 @@ a{
 .login{
     display: flex;
     width: 18%;
-    padding: 10px;
+    padding: 1rem 1.5rem;
     margin-left: auto;
     align-items: center;
     justify-content: flex-end;
@@ -103,6 +103,17 @@ a{
     padding-top: 1%;
 }
 
+#quantity{
+color:white;
+background-color: #FF0D9C;
+position: absolute;
+border-radius:50% ;
+font-weight: 700;
+font-size: .9em;
+padding: .15em;
+top: 0.4em;
+right: 1.8em;
+}
 
 
 

@@ -13,6 +13,31 @@ router.get("/womens",async (req,res)=>{
     }      
 });
 
+
+// instrument
+router.get("/equipment",async (req,res)=>{
+    console.log(req.params.body);
+    try{
+            const products= await Product.find({"category":"equipment"}).lean().exec();
+            
+          return  res.send(products);
+    }catch (e){
+          return   res.status(500).json({status:e.message,status:"Failed"});
+    }      
+});
+
+//mens product
+router.get("/mens",async (req,res)=>{
+    console.log(req.params.body);
+    try{
+            const products= await Product.find({"category":"mens"}).lean().exec();
+            
+          return  res.send(products);
+    }catch (e){
+          return   res.status(500).json({status:e.message,status:"Failed"});
+    }      
+});
+
 // to add new document in womens collection
 router.post("",async (req,res)=>{
     try{
