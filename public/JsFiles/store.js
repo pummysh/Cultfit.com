@@ -29,8 +29,16 @@ function startslideshow(){
 }
 startslideshow()
 
+
+// products page
 function mens_store(){
     window.location.href = "/mens-store"
+}
+function womens(){
+    window.location.href = "/products"
+}
+function equipment(){
+    window.location.href = "/products"
 }
 
 function mensPage(){

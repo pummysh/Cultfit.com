@@ -78,6 +78,12 @@ app.get("/store",(req,res) => {
 app.get("/therapy",(req,res) => {
     res.render("therapyPage");
 })
+app.get("/products/womens",(req,res) => {
+    res.render("products");
+})
+app.get("/products",(req,res) => {
+    res.render("products");
+})
 app.get("/products",(req,res) => {
     res.render("products");
 })

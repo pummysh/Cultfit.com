@@ -27,10 +27,10 @@ router.get("/equipment",async (req,res)=>{
 });
 
 //mens product
-router.get("/mens",async (req,res)=>{
+router.get("/men",async (req,res)=>{
     console.log(req.params.body);
     try{
-            const products= await Product.find({"category":"mens"}).lean().exec();
+            const products= await Product.find({"category":"men"}).lean().exec();
             
           return  res.send(products);
     }catch (e){
