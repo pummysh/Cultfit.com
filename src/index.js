@@ -157,7 +157,7 @@ app.get( '/auth/google/callback',
     expires:new Date(Date.now() + 60000000000000000000),
     httpOnly:false
 });
-return res.redirect("/home")
+return res.redirect("https://masaicult.herokuapp.com/home")
     // return res.send("hey success")
 
 });
