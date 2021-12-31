@@ -145,6 +145,7 @@ app.get('/auth/google',
 
 app.get( '/auth/google/callback',
     passport.authenticate( 'google', {
+        successRedirect:"https://masaicult.herokuapp.com/home",
         failureRedirect: '/auth/google/failure'
 }),function (req,res) {
     
