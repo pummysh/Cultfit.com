@@ -5,7 +5,7 @@ window.addEventListener("load",()=>{
 async function getCartItems() {
 
     try {
-        let res = await fetch('http://localhost:2345/mycarts');
+        let res = await fetch('https://masaicult.herokuapp.com/mycarts');
         let data = await res.json();
         if (data.length <= 0) {
             return
@@ -103,7 +103,7 @@ async function quantI(pr) {
         img: pr.img,
     }
     try {
-        let response = await fetch("http://localhost:2345/mycarts", {
+        let response = await fetch("https://masaicult.herokuapp.com/mycarts", {
             method: 'POST',
             body: JSON.stringify(data),
             headers: {
@@ -125,7 +125,7 @@ async function quantD(pr) {
 
     if (a <= 0) {
 
-        let response = await fetch(`http://localhost:2345/mycarts/${id}`, {
+        let response = await fetch(`https://masaicult.herokuapp.com/mycarts/${id}`, {
 
             method: "DELETE",
             headers: {
@@ -147,7 +147,7 @@ async function quantD(pr) {
     console.log(id);
 
     try {
-        let response = await fetch(`http://localhost:2345/mycarts/${id}`, {
+        let response = await fetch(`https://masaicult.herokuapp.com/mycarts/${id}`, {
             method: 'PATCH',
             body: JSON.stringify(data),
             headers: {
@@ -195,7 +195,7 @@ async function payment(){
     let pay_price = +document.getElementById("pay_price").innerText
 
     try{
-        let data = await fetch("http://localhost:2345/order",{
+        let data = await fetch("https://masaicult.herokuapp.com/order",{
             method:'POST',
             body:JSON.stringify({price: pay_price*100}),
             headers:{
@@ -210,7 +210,7 @@ async function payment(){
         "name": "Cult Fit",
         "image": "https://static.cure.fit/assets/images/curefit-v-man.svg",
         "order_id": info.id,
-        "callback_url": "http://localhost:2345/successful",
+        "callback_url": "https://masaicult.herokuapp.com/successful",
         "theme": {
             "color": "#3399cc"
         }   

@@ -24,7 +24,7 @@ async function showProductsForWomens(a) {
   category.innerText=a
   const data="womens"
     try {
-        let res = await fetch(`http://localhost:2345/products/${a}`);
+        let res = await fetch(`https://masaicult.herokuapp.com/products/${a}`);
         // const data=
         let data = await res.json();
         showproduct(data)

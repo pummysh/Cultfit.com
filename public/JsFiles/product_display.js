@@ -147,7 +147,7 @@ window.addEventListener("load", () => {
             img: pr.img,
         }
         try {
-            let response = await fetch("http://localhost:2345/mycarts", {
+            let response = await fetch("https://masaicult.herokuapp.com/mycarts", {
                 method: 'POST',
                 body: JSON.stringify(data),
                 headers: {
