@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/tailwind.css">
- 
+    <script src="./JsFiles/store.js" ></script>
     <link rel="icon" href="https://static.cure.fit/assets/images/favicon-modified.png" sizes="16x16" type="image/png"
         data-rh="true">
     
     <title>cult.fit - health food | fitness | meditaion</title>
 </head>
-<body class="overflow-x-hidden " >
+<body class="overflow-x-hidden " onload="stopLoading()">
     <div id="loading"></div>
     <nav class="fixed w-full bg-white top-0 right-0 left-0">
         <div class="flex justify-between shadow-md p-2 ">
@@ -626,12 +626,11 @@
 
 
 
-    <!-- <script>
+    <script>
         let preloader=document.getElementById("loading")
     function stopLoading(){
         preloader.style.display="none";
     }
-    </script> -->
-    <script src="./JsFiles/store.js"></script>
+    </script>
 </body>
 </html>
