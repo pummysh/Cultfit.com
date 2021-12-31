@@ -148,16 +148,21 @@ app.get( '/auth/google/callback',
         failureRedirect: '/auth/google/failure'
 }),function (req,res) {
     
-console.log("user 11",req.profile);
-// console.log("picture", req.profile._json.picture);
- res.cookie("jwt", req.user.token,{
-    expires:new Date(Date.now() + 60000000000000000000),
-    httpOnly:false
-});
-console.log("home page");
-return res.redirect("https://masaicult.herokuapp.com/home")
-    // return res.send("hey success")
 
+// console.log("picture", req.profile._json.picture);
+try{
+    console.log("user 11",req.profile);
+    res.cookie("jwt", req.user.token,{
+        expires:new Date(Date.now() + 60000000000000000000),
+        httpOnly:false
+    });
+    console.log("home page");
+    return res.redirect("https://masaicult.herokuapp.com/home")
+        // return res.send("hey success")
+    
+}catch(e){
+    return res.status(500).send("error: " + e.message);
+}
 });
 
 function AuthCheck(req, res,next) {
