@@ -1,7 +1,7 @@
 async function deleteMycart() {
 
     try{
-        let response = await fetch(`https://masaicult.herokuapp.com/mycarts/cart/deleteAll`, {
+        let response = await fetch(`/mycarts/cart/deleteAll`, {
 
         method: "DELETE",
         headers: {

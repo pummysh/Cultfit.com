@@ -23,7 +23,7 @@ function random() {
 
 let alertbox = document.getElementById("alt")
 function num() {
-
+    console.log("JJJJJ")
     let number = document.getElementById("mobile").value;
     if (number.length === 10) {
         alertbox.textContent = null;

@@ -157,7 +157,7 @@ try{
         httpOnly:false
     });
     console.log("home page");
-    return res.redirect("https://masaicult.herokuapp.com/home")
+    return res.redirect("/home")
         // return res.send("hey success")
     
 }catch(e){
